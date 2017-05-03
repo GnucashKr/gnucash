@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-05-02 20:34+0900\n"
-"PO-Revision-Date: 2017-05-03 09:16+0900\n"
+"PO-Revision-Date: 2017-05-04 00:17+0900\n"
 "Last-Translator: Jin, Heonkyu <heonkyu.jin@gmail.com>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -36,46 +36,44 @@ msgid "account name"
 msgstr "계정 이름"
 
 #. "The left side of the balance sheet in T account form shows the application of funds in form of assets. Because it contains only assets use assets directly. Complement: Passive. See also: Report Form"
-#, fuzzy
 msgid "account type: Active"
-msgstr "계정 유형:"
+msgstr ""
 
 #. "A thing, esp. owned by a person or company, that has value and can be used or sold to pay debts. Dependent on the context you might use 'account type: Active' instead."
 msgid "account type: Asset"
-msgstr "계정 유형: 자산"
+msgstr "account type: 자산"
 
 #. "(esp. US) (Brit = current account) a bank account from which money can be withdrawn without previous notice"
 msgid "account type: checking"
-msgstr "계정 유형: 자유입출금"
+msgstr "account type: 자유입출금"
 
 #. "-"
 msgid "account type: currency"
-msgstr "계정 유형: 화폐"
+msgstr "account type: 화폐"
 
 #. "see: Equity, but see also 'account type: Passive'"
 msgid "account type: Equity"
-msgstr "계정 유형: 자산"
+msgstr "account type: 자산"
 
 #. "-"
 msgid "account type: Expense"
-msgstr "계정 유형: 비용"
+msgstr "account type: 비용"
 
 #. "-"
 msgid "account type: Income"
-msgstr "계정 유형: 소득"
+msgstr "account type: 소득"
 
 #. "A debt, a financial obligation, but see also 'account type: Passive'"
 msgid "account type: Liability"
-msgstr "계정 유형: 부채"
+msgstr "account type: 부채"
 
 #. "-"
-#, fuzzy
 msgid "account type: money-market"
-msgstr "계정 유형: "
+msgstr "account type: 머니마켓"
 
 #. "-"
 msgid "account type: Mutual fund"
-msgstr "계정 유형: 뮤추얼펀드"
+msgstr "account type: 투자신탁"
 
 #. "The right side of the balance sheet in T account form shows the source of funds and contains equity & liability. While not common in english, most languages would translate 'equity & liability' with 'passive'. Complement: Active. See also: Report Form Implementation: https://bugzilla.gnome.org/show_bug.cgi?id=421766"
 msgid "account type: Passive"
@@ -83,27 +81,27 @@ msgstr ""
 
 #. "1. (US) any type of account that earns interest 2. (Brit) any type of bank account that earns a higher level of interest than a current account or deposit account"
 msgid "account type: saving"
-msgstr "계정 유형: 예금"
+msgstr "account type: 예금"
 
 #. "-"
 msgid "account type: Stock"
-msgstr "계정 유형: 주식"
+msgstr "account type: 주식"
 
 #. "This account type (new in gnucash-2.4.0) is used when exchanging or trading amounts from one currency into another"
 msgid "account type: trading"
-msgstr ""
+msgstr "account type: 매매"
 
 #. "-"
 msgid "account: parent account"
-msgstr "계정: 부모 계정"
+msgstr "account: 부모 계정"
 
 #. "-"
 msgid "account: subaccount"
-msgstr "계정: 자식 계정"
+msgstr "account: 자식 계정"
 
 #. "-"
 msgid "account: top level account"
-msgstr "계정: 최상위 계정"
+msgstr "account: 최상위 계정"
 
 #. "The process of doing something that caused a transaction to happen"
 msgid "Action (register)"
@@ -111,24 +109,23 @@ msgstr "작업"
 
 #. "Automated teller machine"
 msgid "action: ATM"
-msgstr "작업: 현금인출"
+msgstr "action: 현금인출"
 
 #. "Transaction was an auto deposit"
 msgid "action: autoDep"
-msgstr "작업: 자동입금"
+msgstr "action: 자동입금"
 
 #. "-"
 msgid "action: buy"
-msgstr "작업: 매"
+msgstr "action: 매수"
 
 #. "-"
 msgid "action: deposit"
-msgstr "작업: 입금"
+msgstr "action: 입금"
 
 #. "When people can automatically deduct money straight from your account. The reverse of Direct Deposit."
-#, fuzzy
 msgid "action: direct debit"
-msgstr "작업: "
+msgstr "action: 직불"
 
 #. "transaction is a distribution (???)"
 msgid "action: dist"
@@ -137,7 +134,7 @@ msgstr ""
 #. "transaction is a dividend"
 #, fuzzy
 msgid "action: div"
-msgstr "작업: 분할"
+msgstr "action: 분할"
 
 #. "-"
 msgid "action: fee"
@@ -153,11 +150,11 @@ msgstr ""
 
 #. "see: payment 1."
 msgid "action: payment"
-msgstr "작업: 지불"
+msgstr "action: 지불"
 
 #. "-"
 msgid "action: POS"
-msgstr "작업: POS"
+msgstr "action: POS"
 
 #. "-"
 msgid "action: rebate"
@@ -165,7 +162,7 @@ msgstr ""
 
 #. "-"
 msgid "action: sell"
-msgstr "작업: 매도"
+msgstr "action: 매도"
 
 #. "-"
 msgid "action: Teller"
@@ -173,16 +170,16 @@ msgstr ""
 
 #. "see: transfer 2. (=credit transfer)"
 msgid "action: transfer"
-msgstr "작업: 이체"
+msgstr "action: 이체"
 
 #. "-"
 #, fuzzy
 msgid "action: wire"
-msgstr "작업: 송금"
+msgstr "action: 송금"
 
 #. "-"
 msgid "action: withdraw"
-msgstr "작업: 출금"
+msgstr "action: 출금"
 
 #. "A sum of money"
 msgid "amount"
@@ -202,7 +199,7 @@ msgstr "재무상태표"
 
 #. "To arrange for income and spending to be equal"
 msgid "balance, to"
-msgstr ""
+msgstr "결산"
 
 #. "-"
 msgid "bank"
@@ -218,7 +215,7 @@ msgstr ""
 
 #. "Conditions on paying a bill. Both an invoice and a bill have billing terms. For example, you can have 'terms' of 'Net-30', where the bill is due in full in 30 days."
 msgid "billing terms"
-msgstr ""
+msgstr "지급 조건"
 
 #. "The dataset that encapsulates all the collections of entities (accounts etc.) in gnucash. The written records of the financial affairs of a business."
 msgid "Book"
@@ -269,7 +266,6 @@ msgid "commodity"
 msgstr "상품"
 
 #. "e.g. NASDAQ"
-#, fuzzy
 msgid "commodity listing"
 msgstr "상품 목록"
 
@@ -282,9 +278,8 @@ msgid "commodity option: Symbol"
 msgstr ""
 
 #. "interest which is earned on both the initial deposit and on any interest that has already been earned but left on deposit."
-#, fuzzy
 msgid "compound interests"
-msgstr "복리"
+msgstr "복리 이율"
 
 #. "(a) A sum of money paid into an account. (b) A record of such a payment. (c) The state of having money in one's bank account."
 msgid "Credit (column in register)"
@@ -300,7 +295,7 @@ msgstr ""
 
 #. "A document that you give to a client that says you owe money to the client, i.e. the opposite of an invoice"
 msgid "credit note"
-msgstr ""
+msgstr "신용 전표"
 
 #. "The system of money used in a country"
 msgid "currency"
@@ -336,7 +331,7 @@ msgstr "기본값"
 
 #. "see credit"
 msgid "deposit (in the reconcile dialog)"
-msgstr ""
+msgstr "입금"
 
 #. "The process of something becoming less valuable"
 msgid "depreciation"
@@ -344,7 +339,7 @@ msgstr "감가상각"
 
 #. "1. One textfield per transaction. The text in it should describe what the transaction was about. A short descriptive phrase (up to 40 chars) 2. One textfield per account. It is intended to be a longer, 1-5 sentence description of what this account is all about."
 msgid "Description (column in register)"
-msgstr "상세설명"
+msgstr "상세"
 
 #. "Reductions to a basic price of goods or services. Your language might distinguish between discounts dealing with payments (billing terms) and others (invoice)."
 msgid "discount"
@@ -363,12 +358,10 @@ msgid "equity"
 msgstr "자기자본"
 
 #. "Report that ... FIXME: Add description."
-#, fuzzy
 msgid "equity statement"
 msgstr "자기자본보고서"
 
 #. "A trusted third party that holds a payment or deposit until a transaction is completed. In the US, many mortgage companies set up an escrow account when you get a mortgage.  You pay into the account every month and they disburse amounts out of the escrow to pay for hazard insurance and property taxes. So they are holding funds 'in escrow' to complete the transactions (paying insurance and taxes)."
-#, fuzzy
 msgid "escrow (account)"
 msgstr "에스크로"
 
@@ -390,11 +383,11 @@ msgstr "파일 유형"
 
 #. "-"
 msgid "financial calculator: interest rate"
-msgstr "재무계산기: 이자율"
+msgstr "finance calculator: 이자율"
 
 #. "see: payment"
 msgid "financial calculator: payments"
-msgstr "재무계산기: 지불"
+msgstr "finance calculator: 지불"
 
 #. "An increase in wealth; profit; advantage (See also: capital gains)"
 msgid "gain"
@@ -451,7 +444,7 @@ msgstr "불일치계정"
 
 #. "A particular collection of items that were bought in one transaction. A lot is typically formed when the item is bought, and is closed when the item is sold out. Needed e.g. for U.S. tax purposes."
 msgid "Lot"
-msgstr ""
+msgstr "품목"
 
 #. "Combine two books into one (see book)."
 msgid "merge, to"
@@ -476,7 +469,7 @@ msgstr "메모"
 
 #. "(a) An agreement by which money is lent by a bank for buying a house or other property, the property being the security. (b) A sum of money lent in this way."
 msgid "Mortgage"
-msgstr "모기지"
+msgstr "융자"
 
 #. "e.g. USD, DEM, see Currency."
 msgid "national currency"
@@ -499,16 +492,14 @@ msgid "net worth"
 msgstr "순가치"
 
 #. "One textfield per transaction that can hold explanatory text about the transaction."
-#, fuzzy
 msgid "notes (register)"
-msgstr "내역"
+msgstr "주석"
 
 #. "Abbreviation for: number; Field in a transaction. If this transaction was done by check, then the check number should be noted in this field."
 msgid "Num (column in register)"
 msgstr "번호"
 
 #. "to make accessible"
-#, fuzzy
 msgid "open, to"
 msgstr "열기"
 
@@ -517,12 +508,10 @@ msgid "opening balance"
 msgstr "기초잔고"
 
 #. "A menu choice in the graphical user interface that allows the user to specify how the application will act each time it is used. "
-#, fuzzy
 msgid "options"
 msgstr "옵션"
 
 #. "Watch out: Although this word exists in gnucash program code, all that program code in gnucash is currently not activated. In the future, it will be used in business accounting as follows: A particular request to make or supply goods, but belonging to a (larger) job. Such a request can come from a customer or be sent to a vendor. An order will probably generate one invoice or bill."
-#, fuzzy
 msgid "order"
 msgstr "정렬"
 
@@ -532,11 +521,11 @@ msgstr "고아"
 
 #. "A secret phrase that one needs to know in order to get access to a user account "
 msgid "passphrase"
-msgstr ""
+msgstr "비밀번호"
 
 #. "An amount that must be paid / An amount for which money has not yet been received"
 msgid "Payables/Receivables"
-msgstr ""
+msgstr "매입채무/매출채권"
 
 #. "A person to whom sth is paid"
 msgid "payee"
@@ -547,7 +536,6 @@ msgid "payer"
 msgstr "지급인"
 
 #. "1. The action of paying sb/sth or of being paid. 2. A sum of money paid."
-#, fuzzy
 msgid "payment"
 msgstr "지불"
 
@@ -561,11 +549,11 @@ msgstr "포트폴리오"
 
 #. "Register invoice, voucher in account register"
 msgid "post, to"
-msgstr ""
+msgstr "발행"
 
 #. "A menu choice in many graphical user interface applications that allows the user to specify how the application will act each time it is used. "
 msgid "preferences"
-msgstr "기본설정"
+msgstr "환경설정"
 
 #. "Loan repayment calculator: your payments are split in interests payment and principal payment"
 msgid "principal payment"
@@ -602,46 +590,43 @@ msgstr ""
 
 #. "-"
 msgid "rebalance, to (a transaction)"
-msgstr ""
+msgstr "재결산"
 
 #. "reconcile an account, a reconciled split. To find a way to make the bank's account statement agree with the user's recorded transactions in an account."
 msgid "reconcile, to"
 msgstr "마감"
 
 #. "-"
-#, fuzzy
 msgid "record keeping"
 msgstr "기장"
 
 #. "A list of items; a book containing such a list"
 msgid "register"
-msgstr "등록"
+msgstr "입력기"
 
 #. "A transaction that is divided into two or more parts"
 msgid "register entry: split transaction"
-msgstr ""
+msgstr "register entry: 거래 나누기"
 
 #. "-"
 msgid "register entry: stock split"
-msgstr ""
+msgstr "register entry: 주식 분할"
 
 #. "one form of register"
-#, fuzzy
 msgid "register: auto-split ledger"
-msgstr "등록: 원장 자동분"
+msgstr "register: 자동분할 원장"
 
 #. "another form of register"
 msgid "register: basic ledger"
-msgstr "등록: 기본 원장"
+msgstr "register: 기본 원장"
 
 #. "another form of register"
 msgid "register: general ledger"
-msgstr "등록: 일반 원장"
+msgstr "register: 일반 원장"
 
 #. "another form of register"
-#, fuzzy
 msgid "register: transaction journal"
-msgstr "등록: 트랜잭션 저널"
+msgstr "register: 거래 분개장"
 
 #. "reload the current document"
 msgid "reload, to"
@@ -663,21 +648,19 @@ msgstr "이익잉여금"
 
 #. "Create a new transaction that is the inverse of the old one.  When you add the two together they completely cancel out.  Accounts use this instead of voiding transactions, usually because the prior month has been closed and can no longer be changed, or the entire accounting system is 'write only'."
 msgid "reverse transaction, to (Action in the register)"
-msgstr ""
+msgstr "역거래"
 
 #. "(In the customer summary report) The total amount of money received because something was sold."
-#, fuzzy
 msgid "sales"
-msgstr "판매"
+msgstr "판매량"
 
 #. "To write data (typically a file) to a storage medium, such as a disk or tape."
-#, fuzzy
 msgid "save, to (to a file)"
 msgstr "저장"
 
 #. "A transaction or reminder of a transaction that can be automatically executed at a specific time. It can be executed either once, or several times at regular intervals."
 msgid "Scheduled Transaction"
-msgstr "자동거래"
+msgstr "예약 거래"
 
 #. "DEPRECATED. To repair unbalanced transactions and orphan splits in an account tree. Any transactions that have debits != credits will get a balancing split added (pointing to a special new account called 'Imbalance'). Any splits that do not have accounts are put into another special account called 'Orphan'. Deprecated - use the term 'to check and repair' now."
 msgid "scrub, to"
@@ -693,15 +676,15 @@ msgstr ""
 
 #. "Any of the equal parts into which the money of a business company is divided, giving the holder a right to a portion of the profits"
 msgid "shares"
-msgstr ""
+msgstr "주식수"
 
 #. "(of a price) A place wfrom which sth comes or is obtained"
 msgid "source"
-msgstr ""
+msgstr "출처"
 
 #. "One of the two or several parts a transaction is divided into"
 msgid "split"
-msgstr "분할"
+msgstr "부분거래"
 
 #. "This sets the particular design or shape of a report."
 msgid "style sheet"
@@ -741,19 +724,19 @@ msgstr "거래"
 
 #. "A transaction whose amount has actually been moved. The word comes from checks: a check is issued, but several steps have to be done until the amount is actually retrieved from the bank account, which is the point in time where that transaction (check) gets cleared."
 msgid "transaction state: cleared"
-msgstr ""
+msgstr "transaction state: 확인"
 
 #. "-"
 msgid "transaction state: frozen"
-msgstr ""
+msgstr "transaction state: 동결"
 
 #. "A transaction that was reconciled with the bank's statement."
 msgid "transaction state: reconciled"
-msgstr ""
+msgstr "transaction state: 마감"
 
 #. "A transaction that is void i.e. not valid (anymore)."
 msgid "transaction state: voided"
-msgstr ""
+msgstr "transaction state: 무효"
 
 #. "1. The action of transferring sth. 2. see: credit transfer"
 msgid "transfer (noun)"
@@ -765,7 +748,7 @@ msgstr "이체 계정"
 
 #. "To move money from one account to another. Will create a transaction."
 msgid "transfer, to (register toolbar)"
-msgstr ""
+msgstr "이체"
 
 #. "The trial balance is a worksheet on which you list all your general ledger accounts and their debit or credit balance. It is a tool that is used to alert you to errors in your books. The total debits must equal the total credits. If they don't equal, you know you have an error that must be tracked down."
 msgid "trial balance (report)"
@@ -792,9 +775,8 @@ msgid "vendor"
 msgstr "공급처"
 
 #. "The terms 'Voucher' and 'Expense Voucher' are used interchangeably in gnucash. The 'Expense Voucher' is also a bit of a misnomer -- it's more like an 'Expense Report' in gnucash.  The phrase is meant to be a list of expenses incurred by an employee for which the company will reminburse them."
-#, fuzzy
 msgid "voucher"
-msgstr "바우처"
+msgstr "내역서"
 
 #. "see debit"
 msgid "withdraw (in the reconcile dialog)"

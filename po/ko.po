@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-03 03:19+0000\n"
-"PO-Revision-Date: 2017-05-03 20:57+0900\n"
+"PO-Revision-Date: 2017-05-04 00:06+0900\n"
 "Last-Translator: Jin-Hwan Jeong <yongdoria@gmail.com>\n"
 "Language-Team: Korean <yongdoria@gmail.com>\n"
 "Language: ko\n"
@@ -552,11 +552,11 @@ msgstr ""
 
 #: ../src/app-utils/business-prefs.scm:43
 msgid "Bill number format"
-msgstr "고지서 번호 형식"
+msgstr "영수증 번호 형식"
 
 #: ../src/app-utils/business-prefs.scm:44
 msgid "Bill number"
-msgstr "고지서 번호"
+msgstr "영수증 번호"
 
 #: ../src/app-utils/business-prefs.scm:45
 msgid ""
@@ -1172,9 +1172,9 @@ msgid "Not tax-related; %s%s: %s (code %s, tax type %s)"
 msgstr ""
 
 #: ../src/app-utils/gnc-ui-util.c:696
-#, fuzzy, c-format
+#, c-format
 msgid "(Tax-related subaccounts: %d)"
-msgstr "%s 와 선택된 하위 계정"
+msgstr "(세금과 관련된 하위계정: %d개)"
 
 #. Translators: For the following strings, the single letters
 #. after the colon are abbreviations of the word before the
@@ -1186,7 +1186,7 @@ msgstr "not cleared:신규"
 #. Translators: Please only translate the letter *after* the colon.
 #: ../src/app-utils/gnc-ui-util.c:736
 msgid "cleared:c"
-msgstr "cleared:확인"
+msgstr "cleared:유효"
 
 #. Translators: Please only translate the letter *after* the colon.
 #: ../src/app-utils/gnc-ui-util.c:739
@@ -1506,7 +1506,7 @@ msgstr "할인"
 #: ../src/report/business-reports/invoice.scm:671
 #: ../src/report/business-reports/job-report.scm:425
 msgid "Bill"
-msgstr "어음"
+msgstr "영수증"
 
 #: ../src/bin/gnucash-bin.c:96
 msgid "Show GnuCash version"
@@ -1684,7 +1684,7 @@ msgstr "편집..."
 #: ../src/business/business-gnome/dialog-invoice.c:2562
 #: ../src/business/business-gnome/dialog-invoice.c:2563
 msgid "Voucher"
-msgstr "고지서"
+msgstr "영수증"
 
 #: ../src/business/business-gnome/business-gnome-utils.c:448
 #: ../src/engine/Recurrence.c:478 ../src/engine/Recurrence.c:666
@@ -1763,7 +1763,7 @@ msgstr ""
 
 #: ../src/business/business-gnome/dialog-billterms.c:324
 msgid "You must provide a name for this Billing Term."
-msgstr "이 어음 조건 이름을 제공하여야 합니다."
+msgstr "이 지불 조건의 이름을 입력해 주세요."
 
 #: ../src/business/business-gnome/dialog-billterms.c:331
 #, c-format
@@ -1771,7 +1771,7 @@ msgid ""
 "You must provide a unique name for this Billing Term. Your choice \"%s\" is "
 "already in use."
 msgstr ""
-"어음조건의 유일한 이름을 제공하여야 합니다. 선택 \"%s\"가 이미 사용 중입니다."
+"선택하신 이름 \"%s\"가 이미 사용중입니다. 겹치지 않는 이름을 입력해 주세요. "
 
 #: ../src/business/business-gnome/dialog-billterms.c:527
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:17
@@ -1832,7 +1832,7 @@ msgstr "회사명을 입력해야 합니다."
 
 #: ../src/business/business-gnome/dialog-customer.c:341
 msgid "You must enter a billing address."
-msgstr "어음 수신처를 넣어야 합니다."
+msgstr "지불 주소를 넣어야 합니다."
 
 #: ../src/business/business-gnome/dialog-customer.c:351
 msgid "Discount percentage must be between 0-100 or you must leave it blank."
@@ -2010,7 +2010,7 @@ msgstr "종업원 찾기"
 #: ../src/business/business-gnome/dialog-invoice.c:392
 #: ../src/business/business-gnome/dialog-order.c:181
 msgid "You need to supply Billing Information."
-msgstr "어음 정보를 제공하여야 합니다."
+msgstr "지급 정보를 제공하셔야 합니다."
 
 #: ../src/business/business-gnome/dialog-invoice.c:585
 msgid "Are you sure you want to delete the selected entry?"
@@ -2035,14 +2035,14 @@ msgstr ""
 #: ../src/report/business-reports/owner-report.scm:620
 #: ../src/report/business-reports/taxinvoice.eguile.scm:260
 msgid "Due Date"
-msgstr "어음 만기일"
+msgstr "만기일"
 
 #. Should be using standard label for due date?
 #: ../src/business/business-gnome/dialog-invoice.c:697
 #: ../src/report/business-reports/aging.scm:407
 #: ../src/report/business-reports/owner-report.scm:621
 msgid "Post Date"
-msgstr "어음 등록일"
+msgstr "발행일"
 
 #: ../src/business/business-gnome/dialog-invoice.c:698
 msgid "Post to Account"
@@ -2050,7 +2050,7 @@ msgstr "보낼 계정"
 
 #: ../src/business/business-gnome/dialog-invoice.c:699
 msgid "Accumulate Splits?"
-msgstr "분할을 모을까요?"
+msgstr "부분거래를 누적하시겠습니까?"
 
 #: ../src/business/business-gnome/dialog-invoice.c:792
 msgid "The Invoice must have at least one Entry."
@@ -2149,15 +2149,15 @@ msgstr "청구서 보기"
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:274
 #: ../src/gnome-search/dialog-search.c:1055
 msgid "New Bill"
-msgstr "새 고지서"
+msgstr "새 영수증"
 
 #: ../src/business/business-gnome/dialog-invoice.c:1959
 msgid "Edit Bill"
-msgstr "고지서 편집"
+msgstr "영수증 편집"
 
 #: ../src/business/business-gnome/dialog-invoice.c:1963
 msgid "View Bill"
-msgstr "고지서 보기"
+msgstr "영수증 보기"
 
 #: ../src/business/business-gnome/dialog-invoice.c:1972
 #: ../src/gnome-search/dialog-search.c:1067
@@ -2175,13 +2175,13 @@ msgstr "경비내역서 보기"
 #: ../src/business/business-gnome/dialog-invoice.c:2379
 #: ../src/business/business-gnome/dialog-invoice.c:2554
 msgid "Bill Information"
-msgstr "고지서 정보"
+msgstr "영수증 정보"
 
 #: ../src/business/business-gnome/dialog-invoice.c:2381
 #: ../src/business/business-gnome/dialog-invoice.c:2557
 #: ../src/business/business-gnome/dialog-invoice.c:3103
 msgid "Bill ID"
-msgstr "고지서 ID"
+msgstr "영수증 ID"
 
 #: ../src/business/business-gnome/dialog-invoice.c:2384
 #: ../src/business/business-gnome/dialog-invoice.c:2561
@@ -2238,7 +2238,7 @@ msgstr "인쇄가능한 보고서"
 #: ../src/business/business-gnome/dialog-invoice.c:3016
 #: ../src/business/business-gnome/dialog-invoice.c:3281
 msgid "View/Edit Bill"
-msgstr "고지서 보기/편집"
+msgstr "영수증 보기/편집"
 
 #. Translators: The terms 'Voucher' and 'Expense Voucher' are used
 #. interchangeably in gnucash and mean the same thing.
@@ -2271,7 +2271,7 @@ msgstr "청구서 장부"
 #: ../src/report/business-reports/fancy-invoice.scm:324
 #: ../src/report/business-reports/invoice.scm:309
 msgid "Billing ID"
-msgstr "고지서 ID"
+msgstr "영수증 ID"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3050
 #: ../src/business/business-gnome/dialog-invoice.c:3084
@@ -2316,11 +2316,11 @@ msgstr "청구서 ID"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3075
 msgid "Bill Owner"
-msgstr "고지서 소유자"
+msgstr "영수증 소유자"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3078
 msgid "Bill Notes"
-msgstr "고지서 주석"
+msgstr "영수증 주석"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3109
 msgid "Voucher Owner"
@@ -2389,7 +2389,7 @@ msgstr "번호"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3241
 msgid "Find Bill"
-msgstr "고지서 찾기"
+msgstr "영수증 찾기"
 
 #: ../src/business/business-gnome/dialog-invoice.c:3247
 msgid "Find Expense Voucher"
@@ -2451,7 +2451,7 @@ msgstr[0] "다음 어음은 만기입니다."
 
 #: ../src/business/business-gnome/dialog-invoice.c:3389
 msgid "Due Bills Reminder"
-msgstr "만기 어음 독촉장"
+msgstr "만기 영수증 알림"
 
 #. Translators: %d is the number of invoices/credit notes due. This is a
 #. ngettext(3) message.
@@ -2462,9 +2462,8 @@ msgid_plural "The following %d customer documents are due:"
 msgstr[0] "다음 어음은 만기입니다."
 
 #: ../src/business/business-gnome/dialog-invoice.c:3400
-#, fuzzy
 msgid "Due Invoices Reminder"
-msgstr "만기 어음 독촉장"
+msgstr "만기 청구서 알림"
 
 #: ../src/business/business-gnome/dialog-job.c:139
 msgid "The Job must be given a name."
@@ -2615,8 +2614,8 @@ msgid ""
 "\" before you continue to process this payment. Perhaps you want to create "
 "an Invoice or Bill first?"
 msgstr ""
-"유효한 보낼 계정이 없습니다. 이 지불을 계속하기 전 \"%s\" 형의 계정을 생성하"
-"시오. 아마 청구서 또는 어음을 우선 생성하겠습니까? "
+"발행가능한 계정이 없습니다. 지불 처리 전에  \"%s\" 유형의 계정을 만들어 주세"
+"요. 아마도 청구서나 영수증를 먼저 작성하고 싶으셨지요?"
 
 #: ../src/business/business-gnome/dialog-vendor.c:214
 #, fuzzy
@@ -2652,11 +2651,11 @@ msgstr "공급처 직업"
 #. { N_("Vendor Orders"), order_vendor_cb, NULL, TRUE},
 #: ../src/business/business-gnome/dialog-vendor.c:711
 msgid "Vendor's Bills"
-msgstr "공급처의 증서"
+msgstr "공급처 영수증"
 
 #: ../src/business/business-gnome/dialog-vendor.c:712
 msgid "Pay Bill"
-msgstr "증서 지불"
+msgstr "영수증 지불"
 
 #: ../src/business/business-gnome/dialog-vendor.c:724
 msgid "Vendor ID"
@@ -2787,19 +2786,19 @@ msgstr "공급처 찾기 대화창 열기"
 #: ../src/business/business-gnome/gnc-plugin-business.c:215
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:187
 msgid "New _Bill..."
-msgstr "새 증서(_ B)..."
+msgstr "새 영수증(_ B)..."
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:216
 msgid "Open the New Bill dialog"
-msgstr "새 증서 대화창 열기"
+msgstr "새 영수증 대화창 열기"
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:220
 msgid "Find Bi_ll..."
-msgstr "증서 찾기(_L)..."
+msgstr "영수증 찾기(_L)..."
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:221
 msgid "Open the Find Bill dialog"
-msgstr "증서 찾기 대화창 열기"
+msgstr "영수증 찾기 대화창 열기"
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:242
 msgid "Employees Overview"
@@ -2864,7 +2863,7 @@ msgstr "청구 조건 목록 조회 및 수정"
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:285
 msgid "Bills _Due Reminder"
-msgstr "고지서 만기 알림(_D)"
+msgstr "영수증 만기 알림(_D)"
 
 #: ../src/business/business-gnome/gnc-plugin-business.c:286
 msgid "Open the Bills Due Reminder dialog"
@@ -3042,9 +3041,8 @@ msgid "New _Invoice"
 msgstr "새 청구서(_I)"
 
 #: ../src/business/business-gnome/gnc-plugin-page-invoice.c:189
-#, fuzzy
 msgid "Create a new invoice for the same owner as the current one"
-msgstr "각 새 등록을 위하여 새 창 생성"
+msgstr ""
 
 #: ../src/business/business-gnome/gnc-plugin-page-invoice.c:193
 msgid "_Pay Invoice"
@@ -3216,7 +3214,7 @@ msgstr "필터 조건(_F)..."
 
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:188
 msgid "Create a new bill"
-msgstr "새 고지서 생성"
+msgstr "새 영수증 생성"
 
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:193
 msgid "Create a new invoice"
@@ -3302,7 +3300,7 @@ msgstr "새로"
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:276
 #, fuzzy
 msgid "New Voucher"
-msgstr "고지서"
+msgstr "영수증"
 
 #: ../src/business/business-gnome/gnc-plugin-page-owner-tree.c:433
 #, fuzzy
@@ -3351,9 +3349,8 @@ msgstr "계정이 균형이 맞지 않음. 끝내기를 원하십니까?"
 #: ../src/import-export/csv-imp/gschemas/org.gnucash.dialogs.import.csv.gschema.xml.in.in.h:1
 #: ../src/import-export/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in.in.h:17
 #: ../src/import-export/qif-imp/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in.in.h:4
-#, fuzzy
 msgid "Last window position and size"
-msgstr "창 위치 및 크기"
+msgstr "마지막 창 위치 및 크기"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:2
 #: ../src/gnome/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in.in.h:42
@@ -3409,9 +3406,8 @@ msgid ""
 msgstr ""
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:9
-#, fuzzy
 msgid "Show invoices due reminder at startup"
-msgstr "시작시 어음 만기 여분 보기"
+msgstr "실행할 때 청구서 만기안내 보기"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:10
 msgid ""
@@ -3422,9 +3418,8 @@ msgid ""
 msgstr ""
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:11
-#, fuzzy
 msgid "Show invoices due within this many days"
-msgstr "이 많은 날 내에서 어음 만기일 보기"
+msgstr "청구서 만기 알림 기간"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:12
 msgid ""
@@ -3466,7 +3461,7 @@ msgstr ""
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:19
 msgid "Accumulate multiple splits into one"
-msgstr "복수 스플릿을 하나로 쌓기"
+msgstr "여러 부분거래를 하나로 누적"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:20
 msgid ""
@@ -3487,7 +3482,7 @@ msgstr ""
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:22
 msgid "Show bills due reminder at startup"
-msgstr "시작시 어음 만기 여분 보기"
+msgstr "실행할 때 영수증 만기안내 보기"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:23
 msgid ""
@@ -3499,7 +3494,7 @@ msgstr ""
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:24
 msgid "Show bills due within this many days"
-msgstr "이 많은 날 내에서 어음 만기일 보기"
+msgstr "영수증 만기 알림 기간"
 
 #: ../src/business/business-gnome/gschemas/org.gnucash.dialogs.business.gschema.xml.in.in.h:25
 msgid ""
@@ -3570,11 +3565,11 @@ msgstr "만기시 알림(_N)"
 
 #: ../src/business/business-gnome/gtkbuilder/business-prefs.glade.h:12
 msgid "Whether to display the list of Bills Due at startup."
-msgstr "시동시 어음 만기 목록을 나타낼지"
+msgstr "실행할 때 만기 영수증 목록 보기"
 
 #: ../src/business/business-gnome/gtkbuilder/business-prefs.glade.h:13
 msgid "<b>Bills</b>"
-msgstr "<b>증서</b>"
+msgstr "<b>영수증</b>"
 
 #: ../src/business/business-gnome/gtkbuilder/business-prefs.glade.h:14
 msgid "_Tax included"
@@ -3652,7 +3647,7 @@ msgstr "변경 취소"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:2
 msgid "Commit this Billing Term"
-msgstr "이 증서 조건을 허용"
+msgstr "이 지불 조건 확정"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:3
 msgid "<b>Term Definition</b>"
@@ -3674,11 +3669,11 @@ msgstr "형태(_T):"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:7
 msgid "The internal name of the Billing Term."
-msgstr "어음 조건의 내부 이름"
+msgstr "지불 조건의 내부 이름"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:8
 msgid "<b>New Billing Term</b>"
-msgstr "<b>새 증서 조건</b>"
+msgstr "<b>새 지불 조건</b>"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:9
 #: ../src/report/report-gnome/dialog-report.glade.h:17
@@ -3726,7 +3721,7 @@ msgstr "마감일:"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:21
 msgid "The day of the month bills are due"
-msgstr "월 어음일이 만기입니다."
+msgstr "만기일"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:22
 msgid "The last day of the month for the early payment discount."
@@ -3765,15 +3760,15 @@ msgstr "<b>조건</b>"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:30
 msgid "Delete the current Billing Term"
-msgstr "현재 어음 조건 삭제"
+msgstr "현재 지불 조건 삭제"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:31
 msgid "Create a new Billing Term"
-msgstr "새 증서 조건 생성"
+msgstr "새 지불 조건 생성"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-billterms.glade.h:32
 msgid "Edit the current Billing Term"
-msgstr "현재 어음 조건 편집"
+msgstr "현재 지불 조건 편집"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-choose-owner.glade.h:1
 msgid "Choose Owner Dialog"
@@ -3967,7 +3962,7 @@ msgstr "전역 세금구간표를 덮어쓰시겠습니까?"
 #: ../src/business/business-gnome/gtkbuilder/dialog-invoice.glade.h:13
 #: ../src/business/business-gnome/gtkbuilder/dialog-order.glade.h:8
 msgid "Billing Information"
-msgstr "고지서 정보"
+msgstr "영수증 정보"
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-customer.glade.h:23
 msgid "Shipping Information"
@@ -4712,7 +4707,7 @@ msgstr "할인과 세금 계산 방법 선택"
 
 #: ../src/business/business-ledger/gncEntryLedgerModel.c:682
 msgid "Enter the unit-Price for this Entry"
-msgstr "이 엔트리의 단위 가격 입력"
+msgstr "이 항목의 단위 가격 입력"
 
 #: ../src/business/business-ledger/gncEntryLedgerModel.c:694
 msgid "Enter the Quantity of units for this Entry"
@@ -5126,7 +5121,7 @@ msgstr "불균형"
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:45
 #: ../src/report/standard-reports/register.scm:251
 msgid "-- Split Transaction --"
-msgstr "-- 거래 분할 --"
+msgstr "-- 거래 나누기 --"
 
 #. Translators: This string has a disambiguation prefix
 #: ../src/engine/Split.c:1631
@@ -5345,13 +5340,12 @@ msgstr "별도 지불"
 #: ../src/gnome/assistant-stock-split.c:382
 #: ../src/gnome-utils/gnc-tree-model-split-reg.c:2967
 #: ../src/register/ledger-core/split-register.c:2564
-#, fuzzy
 msgid "Action Column|Split"
-msgstr "자동 분할"
+msgstr "작업 열|나누기"
 
 #: ../src/gnome/assistant-stock-split.c:413
 msgid "Error adding price."
-msgstr "가격 더하는 중 오류."
+msgstr "가격 합산 오류."
 
 #. define all option's names so that they are properly defined
 #. in *one* place.
@@ -5504,7 +5498,7 @@ msgstr "종장 입력"
 #: ../src/import-export/csv-exp/csv-transactions-export.c:611
 #: ../src/import-export/csv-exp/csv-transactions-export.c:624
 msgid "Reconcile"
-msgstr "통장정리"
+msgstr "마감"
 
 #: ../src/gnome/dialog-find-transactions2.c:119
 #: ../src/gnome/dialog-find-transactions.c:118
@@ -5868,7 +5862,7 @@ msgstr ""
 #: ../src/gnome/dialog-sx-editor.c:740
 #, c-format
 msgid "Split with memo %s has an invalid account."
-msgstr "분할(메모 %s)의 계정이 잘못되었습니다."
+msgstr "부분거래(메모 %s)의 계정이 잘못되었습니다."
 
 #: ../src/gnome/dialog-sx-editor.c:743
 #, fuzzy
@@ -6339,9 +6333,8 @@ msgid "Open the selected account"
 msgstr "선택된 계정 열기"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:185
-#, fuzzy
 msgid "Open _Old Style Register Account"
-msgstr "선택된 계정 열기"
+msgstr ""
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:186
 #, fuzzy
@@ -6381,7 +6374,7 @@ msgstr "계정 편집(_A)"
 #: ../src/gnome/gnc-plugin-page-register2.c:244
 #: ../src/gnome/gnc-plugin-page-register.c:251
 msgid "Edit the selected account"
-msgstr "선택된 계정의 편집"
+msgstr "선택된 계정 편집"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:223
 msgid "_Delete Account..."
@@ -6389,7 +6382,7 @@ msgstr "계정 삭제(_D)..."
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:224
 msgid "Delete selected account"
-msgstr "선택된 계정의 삭제"
+msgstr "선택된 계정 삭제"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:228
 #: ../src/gnome/gnc-plugin-page-account-tree.c:233
@@ -6417,13 +6410,13 @@ msgstr "선택된 계정의 하위계정 번호를 재할당"
 #: ../src/gnome/gnc-plugin-page-register2.c:343
 #: ../src/gnome/gnc-plugin-page-register.c:354
 msgid "_Reconcile..."
-msgstr "통장정리(_R)..."
+msgstr "마감(_R)…"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:252
 #: ../src/gnome/gnc-plugin-page-register2.c:344
 #: ../src/gnome/gnc-plugin-page-register.c:355
 msgid "Reconcile the selected account"
-msgstr "선택 계정을 통장정리"
+msgstr "선택된 계정을 마감"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:256
 #: ../src/gnome/gnc-plugin-page-register2.c:348
@@ -6476,14 +6469,14 @@ msgstr "품목 조회/편집기 창 열기"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:276
 msgid "Check & Repair A_ccount"
-msgstr "계정 검사 & 정정(_C)"
+msgstr "계정 검사 및 정정(_C)"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:277
 #: ../src/gnome/window-reconcile2.c:2191 ../src/gnome/window-reconcile.c:2231
 msgid ""
 "Check for and repair unbalanced transactions and orphan splits in this "
 "account"
-msgstr "이 계정에서 잔고이 맞지 않는 거래 및 오르판 스플릿 검사 및 정정"
+msgstr "이 계정에서 미결산 거래 및 고아 부분거래를 검사하고 정정"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:281
 msgid "Check & Repair Su_baccounts"
@@ -6493,8 +6486,7 @@ msgstr "하위 계정 검사 및 정정(_B)"
 msgid ""
 "Check for and repair unbalanced transactions and orphan splits in this "
 "account and its subaccounts"
-msgstr ""
-"이 계정과 그 하위계정에서 잔고이 맞지 않는 거래 및 오르판 스플릿 검사 및 정정"
+msgstr "이 계정 및 하위계정에서 미결산 거래 및 고아 부분거래를 검사하고 정정"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:287
 msgid "Check & Repair A_ll"
@@ -6504,17 +6496,15 @@ msgstr "전체 검사 및 정정(_L)"
 msgid ""
 "Check for and repair unbalanced transactions and orphan splits in all "
 "accounts"
-msgstr "전체 계정에서 잔고이 맞지 않는 거래 및 오르판 스플릿 검사 및 정정"
+msgstr "전체 계정에서 미결산 거래 및 고아 부분거래를 검사하고 정정"
 
 #. Extensions Menu
 #: ../src/gnome/gnc-plugin-page-account-tree.c:292
 #: ../src/gnome/gnc-plugin-register2.c:64
-#, fuzzy
 msgid "_Register2"
-msgstr "등록"
+msgstr "입력기(_R)"
 
 #: ../src/gnome/gnc-plugin-page-account-tree.c:355
-#, fuzzy
 msgid "Open2"
 msgstr "열기"
 
@@ -6697,29 +6687,29 @@ msgstr "거래 삭제(_D)"
 #: ../src/gnome/gnc-plugin-page-register2.c:197
 #: ../src/gnome/gnc-plugin-page-register.c:204
 msgid "Cu_t Split"
-msgstr "분할 잘라내기(_T)"
+msgstr "부분거래 잘라내기(_T)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:198
 #: ../src/gnome/gnc-plugin-page-register.c:205
 msgid "_Copy Split"
-msgstr "분할 복사(_C)"
+msgstr "부분거래 복사(_C)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:199
 #: ../src/gnome/gnc-plugin-page-register.c:206
 msgid "_Paste Split"
-msgstr "분할 붙여넣기(_P)"
+msgstr "부분거래 붙여넣기(_P)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:200
 #: ../src/gnome/gnc-plugin-page-register.c:207
 msgid "Dup_licate Split"
-msgstr "분할 복제(_L)"
+msgstr "부분거래 복제(_L)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:201
 #: ../src/gnome/gnc-plugin-page-register.c:208
 #: ../src/gnome/gnc-split-reg.c:1253
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1025
 msgid "_Delete Split"
-msgstr "분할 삭제(_D)"
+msgstr "부분거래 삭제(_D)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:202
 #: ../src/gnome/gnc-plugin-page-register.c:209
@@ -6824,7 +6814,7 @@ msgstr "분리 제거(_R)"
 #: ../src/gnome/gnc-plugin-page-register2.c:287
 #: ../src/gnome/gnc-plugin-page-register.c:294
 msgid "Remove all splits in the current transaction"
-msgstr "현재 거래에서 전체 스플릿 제거"
+msgstr "현재 거래의 모든 부분거래 제거"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:291
 #: ../src/gnome/gnc-plugin-page-register.c:298
@@ -6909,7 +6899,7 @@ msgstr "빈 거래로 이동(_B)"
 #: ../src/gnome/gnc-plugin-page-register2.c:364
 #: ../src/gnome/gnc-plugin-page-register.c:375
 msgid "Move to the blank transaction at the bottom of the register"
-msgstr "등록하단의 빈 거래로 이동"
+msgstr "기입장 하단의 빈 거래로 이동"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:368
 #: ../src/gnome/gnc-plugin-page-register.c:379
@@ -6961,7 +6951,7 @@ msgstr "계정 보고서"
 #: ../src/gnome/gnc-plugin-page-register2.c:395
 #: ../src/gnome/gnc-plugin-page-register.c:406
 msgid "Open a register report for this Account"
-msgstr "이 거래의 등록 보고서 열기"
+msgstr "이 계정의 등록 보고서 열기"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:399
 #: ../src/gnome/gnc-plugin-page-register.c:410
@@ -6985,14 +6975,12 @@ msgid "Show two lines of information for each transaction"
 msgstr "각 거래에서 2줄 정보 보기"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:416
-#, fuzzy
 msgid "Show _Extra Dates"
-msgstr "환전 비율 보기"
+msgstr "추가 날짜 보기(_E)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:417
-#, fuzzy
 msgid "Show entered and reconciled dates"
-msgstr "통장정리한 날짜에 의한 정렬"
+msgstr "입력일 및 마감일 보기"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:422
 #: ../src/gnome/gnc-plugin-page-register.c:427
@@ -7003,7 +6991,7 @@ msgstr "거래 나누기(_P)"
 #: ../src/gnome/gnc-plugin-page-register2.c:423
 #: ../src/gnome/gnc-plugin-page-register.c:428
 msgid "Show all splits in the current transaction"
-msgstr "현재 거래의 전체 스플릿 보기"
+msgstr "현재 거래의 모든 부분거래 보기"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:434
 #: ../src/gnome/gnc-plugin-page-register.c:439
@@ -7018,7 +7006,7 @@ msgstr "하나나 두 줄로 거래 보기"
 #: ../src/gnome/gnc-plugin-page-register2.c:439
 #: ../src/gnome/gnc-plugin-page-register.c:444
 msgid "_Auto-Split Ledger"
-msgstr "원장 자동 분할(_A)"
+msgstr "자동 나누기 원장(_A)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:440
 #: ../src/gnome/gnc-plugin-page-register.c:445
@@ -7030,12 +7018,12 @@ msgstr "1 또는 2 줄로 거래를 보이고 현재 거래를 확장"
 #: ../src/gnome/gnc-plugin-page-register.c:449
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:156
 msgid "Transaction _Journal"
-msgstr "거래 일지(_J)"
+msgstr "거래 분개장(_J)"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:445
 #: ../src/gnome/gnc-plugin-page-register.c:450
 msgid "Show expanded transactions with all splits"
-msgstr "전체 스플릿의 확장 거래 보기"
+msgstr "거래를 부분거래로 확장하여 표시"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:483
 #: ../src/gnome/gnc-plugin-page-register.c:488
@@ -7051,7 +7039,7 @@ msgstr "이체"
 #: ../src/gnome/gnc-plugin-page-register.c:493
 #: ../src/gnome-search/dialog-search.c:1085
 msgid "Split"
-msgstr "분할"
+msgstr "나누기"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:489
 #: ../src/gnome/gnc-plugin-page-register.c:494
@@ -7092,8 +7080,8 @@ msgid ""
 "the changes to this transaction, discard the transaction, or cancel the "
 "operation?"
 msgstr ""
-"이 등록은 거래 변경을 미루고 있습니다. 거래 변경을 저장 또는 무시, 이 작업을 "
-"취소하겠습니까?"
+"현재 기입장에 아직 변경작업중인 거래가 있습니다. 거래의 변경내용을 저장, 무"
+"시, 작업취소 가운데 어느 것을 선택하시겠습니까?"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:1627
 #: ../src/gnome/gnc-plugin-page-register.c:1570
@@ -7163,12 +7151,12 @@ msgstr "결과 보고서 찾기"
 #: ../src/report/standard-reports/general-journal.scm:38
 #: ../src/report/standard-reports/register.scm:894
 msgid "Register"
-msgstr "등록"
+msgstr "기입장"
 
 #: ../src/gnome/gnc-plugin-page-register2.c:2440
 #: ../src/report/standard-reports/register.scm:406
 msgid "Register Report"
-msgstr "등록 보고"
+msgstr ""
 
 #: ../src/gnome/gnc-plugin-page-register2.c:2456
 #: ../src/gnome/gnc-plugin-page-register.c:2670
@@ -7202,7 +7190,7 @@ msgstr ""
 #: ../src/gnome/gnc-plugin-page-register2.c:2893
 #: ../src/gnome/gnc-plugin-page-register.c:3041
 msgid "You cannot void a transaction with reconciled or cleared splits."
-msgstr "통장정리된 또는 청산된 스플릿을 가진 거래를 비워둘 수 없습니다."
+msgstr "마감되거나 확인된 부분거래가 있는 거래는 비울 수 없습니다."
 
 #. Translators: The %s is the name of the plugin page
 #: ../src/gnome/gnc-plugin-page-register2.c:3037
@@ -7211,7 +7199,7 @@ msgstr "통장정리된 또는 청산된 스플릿을 가진 거래를 비워둘
 #: ../src/gnome-utils/gnc-tree-view-owner.c:1205
 #, c-format
 msgid "Filter %s by..."
-msgstr "로 %s 필터..."
+msgstr "%s로 필터..."
 
 #: ../src/gnome/gnc-plugin-page-register.c:201
 msgid "_Associate File with Transaction"
@@ -7239,7 +7227,7 @@ msgstr "현재 거래에 첨부된 파일이나 URL 열기"
 
 #: ../src/gnome/gnc-plugin-page-register.c:293
 msgid "Remo_ve Other Splits"
-msgstr "다른 분할거래 제거(_R)"
+msgstr "다른 부분거래 제거(_R)"
 
 #: ../src/gnome/gnc-plugin-page-register.c:338
 #: ../src/gnome-utils/gnc-main-window.c:328
@@ -7402,7 +7390,7 @@ msgstr "확인:"
 
 #: ../src/gnome/gnc-split-reg2.c:810 ../src/gnome/gnc-split-reg.c:2027
 msgid "Reconciled:"
-msgstr "통장정리:"
+msgstr "마감:"
 
 #: ../src/gnome/gnc-split-reg2.c:811 ../src/gnome/gnc-split-reg.c:2028
 msgid "Projected Minimum:"
@@ -7418,7 +7406,7 @@ msgstr "현재 가치:"
 
 #: ../src/gnome/gnc-split-reg2.c:891
 msgid "Account Payable / Receivable Register"
-msgstr "매입채무 / 매출채권 등록"
+msgstr "매입채무 / 매출채권 입력기"
 
 #: ../src/gnome/gnc-split-reg2.c:893
 msgid ""
@@ -7429,7 +7417,7 @@ msgstr ""
 
 #: ../src/gnome/gnc-split-reg2.c:940 ../src/gnome/gnc-split-reg.c:2107
 msgid "This account register is read-only."
-msgstr "이 계정 등록은 읽기전용입니다."
+msgstr "이 계정 입력기는 읽기전용입니다."
 
 #: ../src/gnome/gnc-split-reg2.c:983 ../src/gnome/gnc-split-reg.c:2150
 msgid ""
@@ -7437,8 +7425,8 @@ msgid ""
 "register, please open the account options and turn off the placeholder "
 "checkbox."
 msgstr ""
-"이 계정을 편집할 수 없습니다. 등록시 거래 편집을 원한다면 계정 설정을 열고 자"
-"리표시자 체크상자를 끄십시오."
+"이 계정은 변경할 수 없습니다. 입력기에서 거래를 편집하고 싶으시면 계정 설정"
+"을 열고 자리표시자 체크상자를 끄십시오."
 
 #: ../src/gnome/gnc-split-reg2.c:990 ../src/gnome/gnc-split-reg.c:2157
 msgid ""
@@ -7471,8 +7459,8 @@ msgid ""
 "This transaction contains reconciled splits. Modifying it is not a good idea "
 "because that will cause your reconciled balance to be off."
 msgstr ""
-"이 거래가 통장정리된 스플릿을 포함하고 있습니다. 이것을 수정하는 것은 통장정"
-"리 수지가 맞지 않을 수 있기 때문에 좋은 생각이 아닙니다."
+"이 거래에는 마감된 부분거래가 포함되어 있습니다. 마감잔고가 달라질 수도 있으"
+"므로 추천하지 않습니다."
 
 #: ../src/gnome/gnc-split-reg.c:872
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:888
@@ -7507,7 +7495,7 @@ msgstr "이 거래에는 첨부된 URI가 없습니다."
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:964
 #, c-format
 msgid "Delete the split '%s' from the transaction '%s'?"
-msgstr "스플릿 '%s' 를 거래 '%s'에서 삭제하겠습니까?"
+msgstr "부분거래 '%s' 를 거래 '%s'에서 삭제하시겠습니까?"
 
 #: ../src/gnome/gnc-split-reg.c:1193
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:965
@@ -7515,13 +7503,13 @@ msgid ""
 "You would be deleting a reconciled split! This is not a good idea as it will "
 "cause your reconciled balance to be off."
 msgstr ""
-"통장정리된 스플릿만 삭제될 것입니다! 이것은 통장정리 수지가 맞지 않기 때문에 "
-"좋은 생각이 아닙니다."
+"마감된 부분거래를 삭제하실 경우, 마감잔고가 달라질 수도 있으므로 추천하지 않"
+"습니다."
 
 #: ../src/gnome/gnc-split-reg.c:1196
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:968
 msgid "You cannot delete this split."
-msgstr "이 스플릿을 삭제할 수 없습니다."
+msgstr "이 부분거래는 삭제하실 수 없습니다."
 
 #: ../src/gnome/gnc-split-reg.c:1197
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:969
@@ -7545,7 +7533,7 @@ msgstr "(상세 없음)"
 #: ../src/gnome/gnc-split-reg.c:1269
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1041
 msgid "Delete the current transaction?"
-msgstr "현재 거래를 삭제할까요?"
+msgstr "현재 거래를 삭제하시겠습니까?"
 
 #: ../src/gnome/gnc-split-reg.c:1270
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1042
@@ -7836,7 +7824,7 @@ msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.dialogs.reconcile.gschema.xml.in.in.h:1
 msgid "Pre-select cleared transactions"
-msgstr "청산된 거래 사전 선택"
+msgstr "확인된 거래 사전 선택"
 
 #: ../src/gnome/gschemas/org.gnucash.dialogs.reconcile.gschema.xml.in.in.h:2
 msgid ""
@@ -7869,9 +7857,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.dialogs.reconcile.gschema.xml.in.in.h:7
-#, fuzzy
 msgid "Always reconcile to today"
-msgstr "통장정리한 날짜를 보일까요?"
+msgstr "오늘 날짜로 마감처리"
 
 #: ../src/gnome/gschemas/org.gnucash.dialogs.reconcile.gschema.xml.in.in.h:8
 msgid ""
@@ -8152,9 +8139,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:36
-#, fuzzy
 msgid "Use account colors in the tabs of open account registers"
-msgstr "등록 창에 표의 각 계정을 하이퍼링크로 보기"
+msgstr "열린 계정 입력기 탭에 계정 색상을 적용"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:37
 msgid ""
@@ -8377,7 +8363,7 @@ msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:74
 msgid "\"Enter\" key moves to bottom of register"
-msgstr "\"엔터\"키를 등록 하단으로 이동"
+msgstr "\"엔터\"키를 누르면 입력기 하단으로 이동"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:75
 msgid ""
@@ -8402,7 +8388,7 @@ msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:79
 msgid "Create a new window for each new register"
-msgstr "각 새 등록을 위하여 새 창 생성"
+msgstr "입력기마다 새로운 창을 띄움"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:80
 msgid ""
@@ -8423,7 +8409,7 @@ msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:83
 msgid "Show horizontal borders in a register"
-msgstr "등록에서 수평 경계 보기"
+msgstr "입력기에서 수평 경계 보기"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:84
 msgid ""
@@ -8434,7 +8420,7 @@ msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:85
 msgid "Show vertical borders in a register"
-msgstr "등록에서 수직 경계 보기"
+msgstr "입력기에서 수직 경계 보기"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:86
 msgid ""
@@ -8444,9 +8430,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:87
-#, fuzzy
 msgid "Show future transactions after the blank transaction in a register"
-msgstr "등록하단의 빈 거래로 이동"
+msgstr "입력기 빈 거래 아래쪽에 미래 거래 표시"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:88
 msgid ""
@@ -8491,9 +8476,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:95
-#, fuzzy
 msgid "Only display leaf account names."
-msgstr "리프 계정 이름 보기만(_O)"
+msgstr "계정 이름의 맨 끝 단위만 표시합니다."
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:96
 msgid ""
@@ -8504,27 +8488,24 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:97
-#, fuzzy
 msgid "Show the entered and reconcile dates"
-msgstr "사용된 환전 비율 보기"
+msgstr "입력일 및 마감일 보기"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:98
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:169
-#, fuzzy
 msgid ""
 "Show the date when the transaction was entered below the posted date and "
 "reconciled date on split row."
-msgstr "영향을 미치는 날 며칠전 거래를 생성"
+msgstr "부분거래 행의 기준일과 마감일 하단에 거래입력일 표시"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:99
 msgid "Show entered and reconciled dates on selection"
-msgstr ""
+msgstr "선택범위의 입력일과 마감일 보기"
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:100
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:175
-#, fuzzy
 msgid "Show the entered date and reconciled date on transaction selection."
-msgstr "거래를 일치하기 위하여 정리를 하기 위하여 \"R\" 선택"
+msgstr "선택된 거래의 입력일과 마감일을 표시합니다."
 
 #: ../src/gnome/gschemas/org.gnucash.gschema.xml.in.in.h:101
 #, fuzzy
@@ -9156,19 +9137,16 @@ msgid "Date Range"
 msgstr "날짜 범위"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:53
-#, fuzzy
 msgid "Loan Review"
-msgstr "재검토"
+msgstr "대출 심사"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:54
-#, fuzzy
 msgid "Schedule added successfully."
-msgstr "장부를 성공적으로 닫기했습니다."
+msgstr "성공적으로 예약되었습니다."
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:55
-#, fuzzy
 msgid "Loan Summary"
-msgstr "계정 요약"
+msgstr "대출 요약"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:56
 #: ../src/gnome-utils/gnc-date-delta.c:220
@@ -9183,9 +9161,8 @@ msgid "Years"
 msgstr "년"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:58
-#, fuzzy
 msgid "Current Year"
-msgstr "금년 종료일"
+msgstr "올해"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:59
 msgid "Now + 1 Year"
@@ -9196,9 +9173,8 @@ msgid "Whole Loan"
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:62
-#, fuzzy
 msgid "Interest Rate"
-msgstr "이익 비율"
+msgstr "금리"
 
 #: ../src/gnome/gtkbuilder/assistant-loan.glade.h:63
 msgid "APR (Compounded Daily)"
@@ -9242,24 +9218,21 @@ msgid "10/1 Year ARM"
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:1
-#, fuzzy
 msgid "This assistant will help you record a stock split or stock merger.\n"
-msgstr "이 드루이드는 주식 분할이나 주식 합병을 기록하는데 도움을 줍니다."
+msgstr "이 도우미를 이용해 주식의 분할이나 병합을 입력하실 수 있습니다.\n"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:3
-#, fuzzy
 msgid "Stock Split Assistant"
-msgstr "주식 분할 자세히"
+msgstr "주식 분할 도우미"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:4
 msgid ""
 "Select the account for which you want to record a stock split or merger."
-msgstr "주식 분할 또는 합병을 기록하기 원하는 게정을 선택"
+msgstr "주식 분할이나 병합을 기록할 계정을 선택해 주십시오."
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:5
-#, fuzzy
 msgid "Stock Split Account"
-msgstr "주식 계정"
+msgstr "주식 분할 계정"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:6
 msgid ""
@@ -9306,7 +9279,7 @@ msgstr "통화(_Y)"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:14
 msgid "Stock Split Details"
-msgstr "주식 분할 자세히"
+msgstr "주식 분할 상세"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:15
 msgid ""
@@ -9316,7 +9289,7 @@ msgstr ""
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:16
 msgid "_Amount:"
-msgstr "양(_A):"
+msgstr "수량(_A):"
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:17
 #: ../src/gnome/gtkbuilder/dialog-print-check.glade.h:28
@@ -9348,9 +9321,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/assistant-stock-split.glade.h:23
-#, fuzzy
 msgid "Stock Split Finish"
-msgstr "주식 분할"
+msgstr "주식 분할 완료"
 
 #: ../src/gnome/gtkbuilder/dialog-commodities.glade.h:1
 #: ../src/report/standard-reports/account-piecharts.scm:64
@@ -9371,17 +9343,15 @@ msgstr "새 상품 더하기"
 
 #: ../src/gnome/gtkbuilder/dialog-commodities.glade.h:5
 msgid "Remove the current commodity."
-msgstr "현재 상품 제거"
+msgstr "현재 상품을 제거합니다."
 
 #: ../src/gnome/gtkbuilder/dialog-commodities.glade.h:6
-#, fuzzy
 msgid "Edit the current commodity."
-msgstr "현재 상품 제거"
+msgstr "현재 상품을 편집합니다."
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:1
-#, fuzzy
 msgid "Loan Repayment Calculator"
-msgstr "재무 제표"
+msgstr "대출 상환 계산기"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:2
 msgid "<b>Calculations</b>"
@@ -9392,9 +9362,8 @@ msgid "Payment periods"
 msgstr "지불 기간"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:4
-#, fuzzy
 msgid "Clear the entry."
-msgstr "기입사항 삭제"
+msgstr "입력항목을 초기화합니다."
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:5
 msgid "Interest rate"
@@ -9402,7 +9371,7 @@ msgstr "이익 비율"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:6
 msgid "Clear the entry"
-msgstr "기입사항 삭제"
+msgstr "입력항목 초기화"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:7
 msgid "Present value"
@@ -9464,16 +9433,15 @@ msgstr "끝"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:22
 msgid "<b>Compounding:</b>"
-msgstr "<b>배합:</b>"
+msgstr "<b>복리기간:</b>"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:23
 msgid "<b>Period:</b>"
 msgstr "<b>기간:</b>"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:25
-#, fuzzy
 msgid "Annual"
-msgstr "4개월"
+msgstr "12개월"
 
 #: ../src/gnome/gtkbuilder/dialog-fincalc.glade.h:26
 msgid "Semi-annual"
@@ -9506,43 +9474,36 @@ msgid "Daily (365)"
 msgstr "일(365)"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:1
-#, fuzzy
 msgid "Find Account Dialog"
-msgstr "계정 삭제"
+msgstr "계정 찾기 대화창"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:2
-#, fuzzy
 msgid "Search the Account List"
-msgstr "선택된 계정"
+msgstr "계정 목록에서 찾기"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:3
-#, fuzzy
 msgid "Close on Jump"
-msgstr "장부 마감(_C)"
+msgstr "이동시 닫기"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:4
-#, fuzzy
 msgid "Search from Root"
-msgstr "결과 찾기"
+msgstr "최상위계정에서 찾기"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:5
-#, fuzzy
 msgid "Search from Sub Account"
-msgstr "소스 계정 지정"
+msgstr "하위계정에서 찾기"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:6
-#, fuzzy
 msgid "Account Full Name"
-msgstr "계정명"
+msgstr "계정 전체 이름"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:7
 msgid "Case insensative searching is available on 'Account Full Name'."
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:8
-#, fuzzy
 msgid "_Search"
-msgstr " 찾기 "
+msgstr "찾기(_S)"
 
 #: ../src/gnome/gtkbuilder/dialog-find-account.glade.h:9
 msgid ""
@@ -9598,18 +9559,16 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/dialog-imap-editor.glade.h:12
-#, fuzzy
 msgid "_Filter"
-msgstr "파일(_F)"
+msgstr "필터(_F)"
 
 #: ../src/gnome/gtkbuilder/dialog-imap-editor.glade.h:13
 msgid "_Expand All"
-msgstr ""
+msgstr "모두 확장(_E)"
 
 #: ../src/gnome/gtkbuilder/dialog-imap-editor.glade.h:14
-#, fuzzy
 msgid "_Collapse All"
-msgstr "전체 지우기"
+msgstr "모두 축소(_C)"
 
 #: ../src/gnome/gtkbuilder/dialog-imap-editor.glade.h:15
 msgid ""
@@ -9642,34 +9601,28 @@ msgid "<b>_Lots in This Account</b>"
 msgstr ""
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:7
-#, fuzzy
 msgid "Show only open lots"
-msgstr "도표 보기"
+msgstr "열린 품목만 보기"
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:8
-#, fuzzy
 msgid "<b>Splits _free</b>"
-msgstr "분할 찾기"
+msgstr "<b>분할 나머지(_F)</b>"
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:9
-#, fuzzy
 msgid ">>"
-msgstr ">"
+msgstr ""
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:10
-#, fuzzy
 msgid "<<"
-msgstr "<"
+msgstr ""
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:11
-#, fuzzy
 msgid "<b>Splits _in lot</b>"
-msgstr "<b>분할 정보</b>"
+msgstr "<b>품목 나누기</b>"
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:12
-#, fuzzy
 msgid "_New Lot"
-msgstr "새 계정(_N)"
+msgstr "새 품목(_N)"
 
 #: ../src/gnome/gtkbuilder/dialog-lot-viewer.glade.h:13
 msgid "Scrub _Account"
@@ -10400,7 +10353,7 @@ msgstr "번호(_N):"
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register2.glade.h:5
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:6
 msgid "Filter register by..."
-msgstr "필터 등록..."
+msgstr "입력기 필터 기준…"
 
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register2.glade.h:6
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:7
@@ -10465,13 +10418,13 @@ msgstr "오늘(_T)"
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register2.glade.h:17
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:18
 msgid "_Unreconciled"
-msgstr "통장정리 안함(_U)"
+msgstr "마감전(_U)"
 
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register2.glade.h:18
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:19
 #: ../src/import-export/qif-imp/dialog-account-picker.glade.h:5
 msgid "_Reconciled"
-msgstr "통장정리(_R)"
+msgstr "마감(_R)"
 
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register2.glade.h:19
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:20
@@ -10516,7 +10469,7 @@ msgstr "전체 거래 보기(_T)"
 
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:26
 msgid "Sort register by..."
-msgstr "배열 등록..."
+msgstr "입력기 정렬 기준…"
 
 #: ../src/gnome/gtkbuilder/gnc-plugin-page-register.glade.h:27
 msgid "_Standard Order"
@@ -10624,7 +10577,7 @@ msgstr "기말잔고(_E):"
 
 #: ../src/gnome/gtkbuilder/window-reconcile.glade.h:1
 msgid "<b>Reconcile Information</b>"
-msgstr "<b>통장정리 정보</b>"
+msgstr "<b>마감 정보</b>"
 
 #: ../src/gnome/gtkbuilder/window-reconcile.glade.h:2
 msgid "Statement _Date:"
@@ -10655,7 +10608,7 @@ msgstr "이익 지불금 입력(_I)..."
 #: ../src/register/ledger-core/split-register-layout.c:690
 #: ../src/register/ledger-core/split-register-model.c:303
 msgid "Reconciled:R"
-msgstr "Reconciled:상태"
+msgstr "Reconciled:R"
 
 #: ../src/gnome/top-level.c:98
 #, c-format
@@ -10701,12 +10654,12 @@ msgstr "이자 수수료"
 
 #: ../src/gnome/window-reconcile2.c:477 ../src/gnome/window-reconcile.c:512
 msgid "Payment From"
-msgstr "지불 내용"
+msgstr "지불 주체"
 
 #: ../src/gnome/window-reconcile2.c:483 ../src/gnome/window-reconcile2.c:493
 #: ../src/gnome/window-reconcile.c:518 ../src/gnome/window-reconcile.c:528
 msgid "Reconcile Account"
-msgstr "계정 통장정리"
+msgstr "계정 마감"
 
 #: ../src/gnome/window-reconcile2.c:498 ../src/gnome/window-reconcile.c:533
 msgid "Payment To"
@@ -10752,7 +10705,7 @@ msgstr "기말잔고:"
 #. reconciled balance title/value
 #: ../src/gnome/window-reconcile2.c:1831 ../src/gnome/window-reconcile.c:1871
 msgid "Reconciled Balance:"
-msgstr "통장정리된 잔고:"
+msgstr "마감된 잔고:"
 
 #. difference title/value
 #: ../src/gnome/window-reconcile2.c:1841 ../src/gnome/window-reconcile.c:1881
@@ -10763,7 +10716,7 @@ msgstr "차이:"
 msgid ""
 "You have made changes to this reconcile window. Are you sure you want to "
 "cancel?"
-msgstr "이 통장저리 창을 변경하였습니다. 취소하겠습니까?"
+msgstr "마감 작업창에 변경사항이 있습니다. 정말로 취소하시겠습니까?"
 
 #: ../src/gnome/window-reconcile2.c:2048 ../src/gnome/window-reconcile.c:2088
 msgid "The account is not balanced. Are you sure you want to finish?"
@@ -10771,12 +10724,12 @@ msgstr "계정이 균형이 맞지 않음. 끝내기를 원하십니까?"
 
 #: ../src/gnome/window-reconcile2.c:2105 ../src/gnome/window-reconcile.c:2145
 msgid "Do you want to postpone this reconciliation and finish it later?"
-msgstr "통장정리를 연기하고 나중에 끝내기를 원하십니까?"
+msgstr "마감작업을 연기하고 나중에 진행하시겠습니까?"
 
 #. Toplevel
 #: ../src/gnome/window-reconcile2.c:2143 ../src/gnome/window-reconcile.c:2183
 msgid "_Reconcile"
-msgstr "통장정리(_R)"
+msgstr "마감(_R)"
 
 #: ../src/gnome/window-reconcile2.c:2144 ../src/gnome/window-reconcile.c:2184
 msgid "_Account"
@@ -10792,12 +10745,12 @@ msgstr "도움말(_H)"
 
 #: ../src/gnome/window-reconcile2.c:2151 ../src/gnome/window-reconcile.c:2191
 msgid "_Reconcile Information..."
-msgstr "통장정리 정보(_R)..."
+msgstr "마감 정보(_R)..."
 
 #: ../src/gnome/window-reconcile2.c:2152 ../src/gnome/window-reconcile.c:2192
 msgid ""
 "Change the reconcile information including statement date and ending balance."
-msgstr "진술 날짜와 끝 균형을 포함한 통장정리 정보를 변경."
+msgstr "내역서 날짜와 기말 잔고를 포함하여 마감정보 변경"
 
 #: ../src/gnome/window-reconcile2.c:2157 ../src/gnome/window-reconcile.c:2197
 msgid "_Finish"
@@ -10805,7 +10758,7 @@ msgstr "종료(_F)"
 
 #: ../src/gnome/window-reconcile2.c:2158 ../src/gnome/window-reconcile.c:2198
 msgid "Finish the reconciliation of this account"
-msgstr "이 계정 통장정리를 끝냄"
+msgstr "이 계정을 마감처리"
 
 #: ../src/gnome/window-reconcile2.c:2162 ../src/gnome/window-reconcile.c:2202
 msgid "_Postpone"
@@ -10813,11 +10766,11 @@ msgstr "연기(_P)"
 
 #: ../src/gnome/window-reconcile2.c:2163 ../src/gnome/window-reconcile.c:2203
 msgid "Postpone the reconciliation of this account"
-msgstr "이 계정의 통장정리를 연기"
+msgstr "이 계정 마감 연기"
 
 #: ../src/gnome/window-reconcile2.c:2168 ../src/gnome/window-reconcile.c:2208
 msgid "Cancel the reconciliation of this account"
-msgstr "이 계정 통장정리를 취소"
+msgstr "이 계정 마감 취소"
 
 #: ../src/gnome/window-reconcile2.c:2175 ../src/gnome/window-reconcile.c:2215
 #: ../src/gnome-utils/gnc-icons.c:42
@@ -10835,7 +10788,7 @@ msgstr "계정 편집(_E)"
 
 #: ../src/gnome/window-reconcile2.c:2181 ../src/gnome/window-reconcile.c:2221
 msgid "Edit the main account for this register"
-msgstr "이 등록을 위한 주 계정 편집"
+msgstr "이 입력기의 위한 주 계정 편집"
 
 #. Actions menu
 #: ../src/gnome/window-reconcile2.c:2190 ../src/gnome/window-reconcile.c:2230
@@ -10848,38 +10801,32 @@ msgid "_Balance"
 msgstr "잔고(_B)"
 
 #: ../src/gnome/window-reconcile2.c:2200 ../src/gnome/window-reconcile.c:2240
-#, fuzzy
 msgid "Add a new balancing entry to the account"
-msgstr "새 거래를 계정에 더하기"
+msgstr "계정에 조정항목을 추가"
 
 #: ../src/gnome/window-reconcile2.c:2205 ../src/gnome/window-reconcile.c:2245
 msgid "Edit the current transaction"
 msgstr "현재 거래 편집"
 
 #: ../src/gnome/window-reconcile2.c:2210 ../src/gnome/window-reconcile.c:2250
-#, fuzzy
 msgid "Delete the selected transaction"
-msgstr "선택된 거래 잘라내기"
+msgstr "선택된 거래 삭제"
 
 #: ../src/gnome/window-reconcile2.c:2214 ../src/gnome/window-reconcile.c:2254
-#, fuzzy
 msgid "_Reconcile Selection"
-msgstr "계정 통장정리"
+msgstr "마감 선택(_R)"
 
 #: ../src/gnome/window-reconcile2.c:2215 ../src/gnome/window-reconcile.c:2255
-#, fuzzy
 msgid "Reconcile the selected transactions"
-msgstr "선택된 거래 잘라내기"
+msgstr "선택된 거래 마감"
 
 #: ../src/gnome/window-reconcile2.c:2219 ../src/gnome/window-reconcile.c:2259
-#, fuzzy
 msgid "_Unreconcile Selection"
-msgstr "통장정리 안함(_U)"
+msgstr "마감취소(_U)"
 
 #: ../src/gnome/window-reconcile2.c:2220 ../src/gnome/window-reconcile.c:2260
-#, fuzzy
 msgid "Unreconcile the selected transactions"
-msgstr "선택된 거래 잘라내기"
+msgstr "선택된 거래 마감취소"
 
 #: ../src/gnome/window-reconcile2.c:2228 ../src/gnome/window-reconcile.c:2268
 msgid "Open the GnuCash help window"
@@ -10899,14 +10846,12 @@ msgid "Order"
 msgstr "주문"
 
 #: ../src/gnome-search/dialog-search.c:1083
-#, fuzzy
 msgid "New Transaction"
-msgstr "거래"
+msgstr "새 거래"
 
 #: ../src/gnome-search/dialog-search.c:1087
-#, fuzzy
 msgid "New Split"
-msgstr "분할"
+msgstr "새 부분거래"
 
 #: ../src/gnome-search/dialog-search.c:1096
 msgid ""
@@ -11110,19 +11055,19 @@ msgstr "신용을 가짐"
 #. Build and connect the toggles
 #: ../src/gnome-search/search-reconciled.c:226
 msgid "Not Cleared"
-msgstr "청산되지 않음"
+msgstr "확인전"
 
 #: ../src/gnome-search/search-reconciled.c:229
 #: ../src/gnome-utils/gnc-tree-view-account.c:790
 msgid "Cleared"
-msgstr "청산됨"
+msgstr "확인됨"
 
 #: ../src/gnome-search/search-reconciled.c:232
 #: ../src/gnome-utils/gnc-tree-view-account.c:804
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:64
 #: ../src/import-export/import-match-picker.c:437
 msgid "Reconciled"
-msgstr "통장정리됨"
+msgstr "마감됨"
 
 #: ../src/gnome-search/search-reconciled.c:235
 msgid "Frozen"
@@ -11593,18 +11538,16 @@ msgid "Select the default account selection."
 msgstr "기본 계정 선택을 선택."
 
 #: ../src/gnome-utils/dialog-options.c:1132
-#, fuzzy
 msgid "Show Hidden Accounts"
-msgstr "숨긴 계정 보기(_H)"
+msgstr "숨긴 계정 보기"
 
 #: ../src/gnome-utils/dialog-options.c:1134
-#, fuzzy
 msgid "Show accounts that have been marked hidden."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "숨김처리한 계정을 표시합니다."
 
 #: ../src/gnome-utils/dialog-options.c:1238
 msgid "Select all entries."
-msgstr "전체 기입사항 선택."
+msgstr "전체 항목 선택."
 
 #: ../src/gnome-utils/dialog-options.c:1245
 msgid "Clear the selection and unselect all entries."
@@ -11616,9 +11559,8 @@ msgstr "기본 선택을 선택."
 
 #. The reset button on each option page
 #: ../src/gnome-utils/dialog-options.c:1412
-#, fuzzy
 msgid "Reset defaults"
-msgstr "기본값 등록"
+msgstr "기본값 초기화"
 
 #: ../src/gnome-utils/dialog-options.c:1414
 msgid "Reset all values to their defaults."
@@ -12402,7 +12344,7 @@ msgstr "현재 페이지를 새 상위-레벨 GnuCash 창으로 이동"
 
 #: ../src/gnome-utils/gnc-main-window.c:371
 msgid "Tutorial and Concepts _Guide"
-msgstr "튜토리얼 및 컨셉 안내(_G)"
+msgstr "지침서 및 개념 안내(_G)"
 
 #: ../src/gnome-utils/gnc-main-window.c:372
 msgid "Open the GnuCash Tutorial"
@@ -12626,29 +12568,25 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:131
-#, fuzzy
 msgid "Save Transaction before proceeding?"
-msgstr "닫기 전 거래를 저장할까요?"
+msgstr "진행 전에 거래를 저장하시겠습니까?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:133
-#, fuzzy
 msgid ""
 "The current transaction has been changed. Would you like to record the "
 "changes before proceeding, or cancel?"
 msgstr ""
-"현재 계정이 변경되었습니다. 이 엔트리를 복제하기 전 이 변경을 기록하겠습니까 "
-"아니면 복제를 취소하겠습니까?"
+"현재 거래가 변경되었습니다. 진행 전에 변경내용을 기록하시겠습니까 아니면 취소"
+"하시겠습니까?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:185
-#, fuzzy
 msgid "This transaction is being edited in a different register."
-msgstr ""
-"이 거래는 다른 등록에서 이미 편집 중입니다. 그것의 편집을 우선 끝내세요."
+msgstr "이 거래는 다른 입력기에서 동시에 편집중입니다."
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:205
 #: ../src/register/ledger-core/split-register-control.c:58
 msgid "Rebalance Transaction"
-msgstr "거래 재 수지화"
+msgstr "거래 재조정"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:206
 #: ../src/register/ledger-core/split-register-control.c:59
@@ -12668,17 +12606,17 @@ msgstr "GnuCash에 조정 스플릿 더하기(_A)"
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:294
 #: ../src/register/ledger-core/split-register-control.c:144
 msgid "Adjust current account _split total"
-msgstr "현재 계정 스플릿 총합계 조정(_S)"
+msgstr "현재 계정의 부분거래 총합 조정(_S)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:300
 #: ../src/register/ledger-core/split-register-control.c:150
 msgid "Adjust _other account split total"
-msgstr "다른 계정 스플릿 총합계 조정(_O)"
+msgstr "다른 계정의 부분거래 총합 조정(_O)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:311
 #: ../src/register/ledger-core/split-register-control.c:161
 msgid "_Rebalance"
-msgstr "재 수지화(_R)"
+msgstr "재조정(_R)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:405
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:413
@@ -12745,14 +12683,13 @@ msgstr ""
 "아니면 복제를 취소하겠습니까?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1740
-#, fuzzy
 msgid "_Return"
-msgstr "총 수익"
+msgstr "수익(_R)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1783
 #: ../src/register/ledger-core/split-register-control.c:1835
 msgid "Mark split as unreconciled?"
-msgstr "분할거래를 미완료상태로 변경할까요?"
+msgstr "부분거래를 마감전 상태로 변경할까요?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1785
 #: ../src/register/ledger-core/split-register-control.c:1837
@@ -12760,18 +12697,18 @@ msgid ""
 "You are about to mark a reconciled split as unreconciled. Doing so might "
 "make future reconciliation difficult! Continue with this change?"
 msgstr ""
-"통장정리되지 않은 것으로 통장정리 분리를 표시합니다. 이 작업은 미래 통장정리"
-"와 다를 수 있습니다! 이것으로 변경하겠습니까?"
+"마감된 부분거래가 마감전으로 되돌아가게 됩니다. 이 경우 향후 마감작업이 어려"
+"워질 수 있습니다. 계속 변경작업을 진행하시겠습니까?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1829
 #: ../src/register/ledger-core/split-register-control.c:1854
 msgid "_Unreconcile"
-msgstr "통장정리 안함(_U)"
+msgstr "마감취소(_U)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1914
 #: ../src/register/ledger-core/split-register-model.c:2064
 msgid "Change reconciled split?"
-msgstr ""
+msgstr "마감된 부분거래 변경?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1916
 #: ../src/register/ledger-core/split-register-model.c:2066
@@ -12799,7 +12736,7 @@ msgstr ""
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1937
 #: ../src/register/ledger-core/split-register-model.c:2087
 msgid "Chan_ge Split"
-msgstr "분할 변경(_G)"
+msgstr "부분거래 변경(_G)"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:2125
 msgid "You can not paste from the general journal to a register."
@@ -13054,7 +12991,7 @@ msgstr "마지막 번호"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:755
 msgid "Present"
-msgstr "현재가"
+msgstr "현재가치"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:762
 msgid "Present (Report)"
@@ -13070,16 +13007,15 @@ msgstr "잔고 (기간)"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:797
 msgid "Cleared (Report)"
-msgstr "청산 (보고서)"
+msgstr "확인됨 (보고서)"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:811
 msgid "Reconciled (Report)"
-msgstr "통장정리 (보고서)"
+msgstr "마감됨 (보고서)"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:818
-#, fuzzy
 msgid "Last Reconcile Date"
-msgstr "통장정리한 날짜"
+msgstr "마지막 마감일"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:824
 msgid "Future Minimum"
@@ -13132,13 +13068,13 @@ msgstr "잔고 (%s)"
 #: ../src/gnome-utils/gnc-tree-view-account.c:1710
 #, c-format
 msgid "Cleared (%s)"
-msgstr "청산됨 (%s)"
+msgstr "확인됨 (%s)"
 
 #. Translators: %s is a currency mnemonic.
 #: ../src/gnome-utils/gnc-tree-view-account.c:1713
 #, c-format
 msgid "Reconciled (%s)"
-msgstr "통장정리됨 (%s)"
+msgstr "마감됨 (%s)"
 
 #. Translators: %s is a currency mnemonic.
 #: ../src/gnome-utils/gnc-tree-view-account.c:1716
@@ -13297,11 +13233,11 @@ msgstr "입력일"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2824
 msgid "Date Reconciled"
-msgstr "통장정리일"
+msgstr "마감일"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2826
 msgid "Date Posted / Entered / Reconciled"
-msgstr ""
+msgstr "기준일 / 입력일 / 마감일"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2853
 #, fuzzy
@@ -13347,9 +13283,8 @@ msgid "R"
 msgstr "상태"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3006
-#, fuzzy
 msgid "Amount / Value"
-msgstr "현재 가치:"
+msgstr "수량 / 가치"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3112
 #: ../src/register/ledger-core/split-register-model.c:489
@@ -13362,9 +13297,8 @@ msgid "Debit Formula"
 msgstr "입금 식"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3263
-#, fuzzy
 msgid "Enter Due Date"
-msgstr "어음 만기일"
+msgstr "만기일 입력"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3274
 msgid "Enter the transaction reference, such as the invoice or check number"
@@ -13396,7 +13330,7 @@ msgstr "거래 주석 입력"
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3315
 #: ../src/register/ledger-core/split-register-model.c:1273
 msgid "Enter a description of the split"
-msgstr "스플릿 세부 항목 입력"
+msgstr "분할 상세 입력"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3302
 #: ../src/register/ledger-core/split-register-model.c:1080
@@ -13421,14 +13355,12 @@ msgid "Reason the transaction was voided"
 msgstr "거래 이유가 비어있음"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3339
-#, fuzzy
 msgid "Enter the reconcile type"
-msgstr "거래 날짜를 보입니까?"
+msgstr "마감 유형 입력"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3349
-#, fuzzy
 msgid "Enter the type of transaction"
-msgstr "입력 형태 입력"
+msgstr "거래 유형 입력"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3359
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3379
@@ -13585,7 +13517,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:15
 msgid "Read only register"
-msgstr "등록만 읽기"
+msgstr "읽기전용 입력기"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:16
 msgid "This dialog is presented when a read-only register is opened."
@@ -13593,7 +13525,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:17
 msgid "Change contents of reconciled split"
-msgstr "통장 정리된 분리의 내용 변경"
+msgstr "마감된 부분거래 내용 변경"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:18
 msgid ""
@@ -13604,7 +13536,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:19
 msgid "Mark transaction split as unreconciled"
-msgstr "거래 스플릿을 통장정리 안함으로 만듦"
+msgstr "부분거래를 마감전으로 변경"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:20
 msgid ""
@@ -13614,9 +13546,8 @@ msgid ""
 msgstr ""
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:21
-#, fuzzy
 msgid "Remove a split from a transaction"
-msgstr "거래에서 스플릿 제거"
+msgstr "거래에서 부분거래 제거"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:22
 #, fuzzy
@@ -13626,9 +13557,8 @@ msgid ""
 msgstr "거래 삭제 허용 전 이 대화창이 나타납니다."
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:23
-#, fuzzy
 msgid "Remove a reconciled split from a transaction"
-msgstr "거래에서 스플릿 제거"
+msgstr "거래에서 마감된 부분거래 제거"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:24
 msgid ""
@@ -13639,7 +13569,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:25
 msgid "Remove all the splits from a transaction"
-msgstr "거래에서 전체 스플릿 제거"
+msgstr "거래에서 모든 부분거래 제거"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:26
 msgid ""
@@ -13664,9 +13594,8 @@ msgid "This dialog is presented before allowing you to delete a transaction."
 msgstr "거래 삭제 허용 전 이 대화창이 나타납니다."
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:30
-#, fuzzy
 msgid "Delete a transaction with reconciled splits"
-msgstr "통장정리된 또는 청산된 스플릿을 가진 거래를 비워둘 수 없습니다."
+msgstr "마감된 부분거래를 포함한 거래 삭제"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:31
 msgid ""
@@ -14471,18 +14400,18 @@ msgstr "<b>날짜 자동완성</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:60
 msgid "When a date is entered without year, it should be taken:"
-msgstr "연도가 생략된 날짜 처리:"
+msgstr "년도를 생략한 날짜가 입력될 경우 처리방안:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:62
 msgid ""
 "Dates will be completed so that they are within the current calendar year."
-msgstr ""
+msgstr "올해 입력된 것으로 간주"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:63
 msgid ""
 "In a sliding 12-month window starting this\n"
 "many months before the current month:"
-msgstr ""
+msgstr "최근 12개월 가운데 현재월 대비 N개월 이전으로 간주:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:66
 msgid "Enter number of months."
@@ -14667,19 +14596,19 @@ msgstr "활성화시 '엔터' 키를 누르면 ..."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:124
 msgid "_Auto-raise lists"
-msgstr "자동-상승 목록(A)"
+msgstr "자동으로 목록 띄우기(A)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:125
 msgid "Automatically raise the list of accounts or actions during input."
-msgstr ""
+msgstr "입력하는 동안 자동으로 계정 목록을 띄웁니다."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:126
 msgid "<b>Reconciling</b>"
-msgstr "<b>통장정리</b>"
+msgstr "<b>마감</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:127
 msgid "Check cleared _transactions"
-msgstr "청산된 거래 검사(_T)"
+msgstr "확인된 거래 검사(_T)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:128
 msgid "Pre-check cleared transactions when creating a reconcile dialog."
@@ -14721,7 +14650,7 @@ msgstr "수직선으로 셀을 구분합니다."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:137
 msgid "<b>Layout</b>"
-msgstr "<b>계정(_A)</b>"
+msgstr "<b>배치</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:138
 msgid "_Future transactions after blank transaction"
@@ -14806,7 +14735,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:162
 msgid "Register opens in a new _window"
-msgstr "등록화면 새창으로 열기(_W)"
+msgstr "입력기 새 창으로 열기(_W)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:163
 msgid ""
@@ -14816,7 +14745,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:164
 msgid "_Only display leaf account names"
-msgstr "하위계정 이름만 표시(_O)"
+msgstr "계정 이름 맨 끝단위만 표시(_O)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:165
 msgid ""
@@ -14836,9 +14765,8 @@ msgid "Show the _entered and reconcile dates"
 msgstr "사용된 환전 비율 보기"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:170
-#, fuzzy
 msgid "Show the calendar b_uttons"
-msgstr "이름 열 보기"
+msgstr "달력 버튼 보기(_U)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:172
 msgid "_Move the selection to the blank split on expand"
@@ -14850,7 +14778,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:176
 msgid "Register Defaults"
-msgstr "기본값 등록"
+msgstr "입력기 기본값"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:179
 msgid "<b>Default Report Currency</b>"
@@ -17099,18 +17027,16 @@ msgid "Merge with column on _right"
 msgstr ""
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1147
-#, fuzzy
 msgid "_Split this column"
-msgstr "가격 열 보기"
+msgstr "이 열 나누기(_S)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1152
 msgid "_Widen this column"
-msgstr ""
+msgstr "이 열을 넓게(_W)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1156
-#, fuzzy
 msgid "_Narrow this column"
-msgstr "가격 열 보기"
+msgstr "이 열을 좁게(_N)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1634
 msgid "No Linked Account"
@@ -17184,6 +17110,29 @@ msgid ""
 "settings name and press the Save Settings button. Note you can't save to "
 "built-in presets."
 msgstr ""
+"이 도우미를 이용해 파일 안에 들어있는 거래내역을 가져오실 수 있습니다. 쉼표"
+"(,)나 세미콜론(;)으로 구분된 파일 외에도 고정폭 데이터도 지원합니다.\n"
+"\n"
+"데이터를 가져오시려면 최소한 세 개의 열이 존재해야 합니다:\n"
+"• 날짜 열\n"
+"• 상세 열\n"
+"• 입금이나 출금 열\n"
+"\n"
+"데이터 안에 계좌정보가 없을 경우, 불러온 거래내역 데이터가 저장될 계정을 선택"
+"하실 수 있습니다.\n"
+"\n"
+"구분자 선택 외에도, 가져오기 작업을 튜닝할 수 있는 방법은 다양합니다. 예를 들"
+"어, 데이터의 맨 앞이나 뒤부터 몇 개의 라인을 건너 뛰거나, 짝수/홀수 라인 데이"
+"터만 가져올 수도 있습니다. 날짜 및 번호 포맷도 다양하게 지원되고, 파일 인코딩"
+"도 지정할 수 있습니다.\n"
+"\n"
+"가져오기 도우미는 파일의 여러 라인으로부터 하나의 거래를 읽어 올 수도 있습니"
+"다.\n"
+"\n"
+"마지막으로, 반복작업을 위해 미리보기 화면에는 설정 불러오기 및 저장하기 기능"
+"이 제공됩니다.설정을 저장하시려면, 필요에 맞게 설정을 조정하신 뒤에 ‘설정 저"
+"장’ 버튼을 누르십시오. 기본으로 제공되는 설정들은 변경불가능하니 유념하십시"
+"오."
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:16
 msgid ""
@@ -17209,20 +17158,19 @@ msgstr " <b>설정 조회 및 저장</b>"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:24
 msgid "Fixed-Width"
-msgstr ""
+msgstr "고정폭"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:25
 msgid "Space"
 msgstr "스페이스"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:26
-#, fuzzy
 msgid "Tab"
-msgstr "표"
+msgstr "탭"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:30
 msgid "Hyphen (-)"
-msgstr "하이픈"
+msgstr "하이픈 (-)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:32
 msgid "•"
@@ -17303,7 +17251,7 @@ msgstr "<b>계정</b>"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:53
 msgid "Select the type of each column to import."
-msgstr "가져오기할 컬럼의 유형 선택"
+msgstr "가져오기할 열의 유형 선택"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:54
 msgid "Skip Errors"
@@ -17328,9 +17276,8 @@ msgid "Change GnuCash _Account..."
 msgstr "GunCash 계정 변경(_A)..."
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:60
-#, fuzzy
 msgid "Match Import accounts with GnuCash accounts"
-msgstr "GnuCash 계정 가진 QIF 계정 일치"
+msgstr "가져온 계정을 GnuCash 계정과 대조"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:61
 msgid ""
@@ -17359,29 +17306,27 @@ msgid "Transaction Information"
 msgstr "<b>거래 정보</b>"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:74
-#, fuzzy
 msgid "Match Transactions"
-msgstr "거래 붙여넣기"
+msgstr "거래 대조"
 
 #: ../src/import-export/csv-imp/csv-account-import.c:242
 #, c-format
 msgid "Row %u, path to account %s not found, added as top level\n"
-msgstr ""
+msgstr "행 %u, 계정 경로 %s 없음, 최상위 계정으로 추가됨\n"
 
 #: ../src/import-export/csv-imp/csv-account-import.c:292
 #, c-format
 msgid "Row %u, commodity %s / %s not found\n"
-msgstr ""
+msgstr "행 %u, 상품 %s / %s 없음\n"
 
 #: ../src/import-export/csv-imp/csv-account-import.c:301
-#, fuzzy, c-format
+#, c-format
 msgid "Row %u, account %s not in %s\n"
-msgstr "계정 장부 보기"
+msgstr "행 %u, 계정 %s는 %s 안에 없음\n"
 
 #: ../src/import-export/csv-imp/gnc-csv-trans-settings.cpp:44
-#, fuzzy
 msgid "No Settings"
-msgstr "내보내기 형식 선택"
+msgstr "설정 없음"
 
 #: ../src/import-export/csv-imp/gnc-csv-trans-settings.cpp:45
 msgid "GnuCash Export Format"
@@ -17417,11 +17362,11 @@ msgstr "이체 메모"
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:69
 msgid "Transfer Reconciled"
-msgstr "이체 정리완료"
+msgstr "이체 마감"
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:70
 msgid "Transfer Reconcile Date"
-msgstr "이체 정리날짜"
+msgstr "이체 마감일"
 
 #. regex didn't find a match
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:164
@@ -17479,9 +17424,8 @@ msgid " could not be understood.\n"
 msgstr "파일을 다시 열 수 없습니다."
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:397
-#, fuzzy
 msgid "No date column."
-msgstr "날짜 열 보기"
+msgstr "날짜 열 없음."
 
 #. Declare two translatable error strings here as they will be used in several places
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:452
@@ -17531,15 +17475,13 @@ msgstr "월-일-년"
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:50
 #: ../src/libqof/qof/gnc-datetime.cpp:113
-#, fuzzy
 msgid "d-m"
-msgstr "일-월-년"
+msgstr "일-월"
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:51
 #: ../src/libqof/qof/gnc-datetime.cpp:125
-#, fuzzy
 msgid "m-d"
-msgstr "월-일-년"
+msgstr "월-일"
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:56
 #: ../src/import-export/import-format-dialog.c:62
@@ -17552,9 +17494,8 @@ msgid "Comma: 123.456,78"
 msgstr "콤마: 123.456,78"
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:470
-#, fuzzy
 msgid "Please select a date column."
-msgstr "유효한 대출 계정을 선택하시오."
+msgstr "날짜 열을 선택해 주십시오."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:478
 #, fuzzy
@@ -19234,7 +19175,7 @@ msgid ""
 "This transaction is already being edited in another register. Please finish "
 "editing it there first."
 msgstr ""
-"이 거래는 다른 등록에서 이미 편집 중입니다. 그것의 편집을 우선 끝내세요."
+"이 거래는 다른 입력기에서 이미 편집중입니다. 그 쪽 작업을 먼저 끝내 주십시오."
 
 #: ../src/register/ledger-core/split-register.c:452
 msgid "Save transaction before duplicating?"
@@ -19439,7 +19380,7 @@ msgstr "엔트리의 수입/지출 계정을 입력 또는 목록에서 하나�
 msgid ""
 "This transaction has multiple splits; press the Split button to see them all"
 msgstr ""
-"이 거래는 복수 스플릿을 가짐; 그들 전체를 보기 위하여 스플릿 단추를 누름"
+"이 거래는 여러 부분거래로 구성됩니다; 전체를 보려면 나누기 버튼을 누르세요"
 
 #: ../src/register/ledger-core/split-register-model.c:1511
 msgid ""
@@ -19529,20 +19470,17 @@ msgid "Price Source"
 msgstr "가격 원가"
 
 #: ../src/report/business-reports/aging.scm:44
-#, fuzzy
 msgid "Show Multi-currency Totals"
-msgstr "다수-통화 합계 보입니가?"
+msgstr "전체 통화가치 합산 보기"
 
 #: ../src/report/business-reports/aging.scm:45
-#, fuzzy
 msgid "Show zero balance items"
-msgstr "제로 잔고 항목 보입니까?"
+msgstr "잔고 0인 항목 보기"
 
 #: ../src/report/business-reports/aging.scm:46
 #: ../src/report/business-reports/owner-report.scm:42
-#, fuzzy
 msgid "Due or Post Date"
-msgstr "어음 등록일"
+msgstr "만기일 혹은 발행일"
 
 #. Display tab options
 #: ../src/report/business-reports/aging.scm:49
@@ -19873,16 +19811,15 @@ msgid "Displays accounts which exceed the depth limit at the depth limit."
 msgstr "깊이 한계에서 깊이 제한 보다 더 깊은 계정 보기"
 
 #: ../src/report/business-reports/balsheet-eg.scm:261
-#, fuzzy
 msgid "Exclude accounts with zero total balances"
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "총 잔고가 0인 계정 제외"
 
 #: ../src/report/business-reports/balsheet-eg.scm:263
-#, fuzzy
 msgid ""
 "Exclude non-top-level accounts with zero balance and no non-zero sub-"
 "accounts."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr ""
+"비최상위 계정 가운데 하위계정을 포함한 전체 잔고가 0인 계정을 제외합니다."
 
 #: ../src/report/business-reports/balsheet-eg.scm:265
 #: ../src/report/standard-reports/account-summary.scm:99
@@ -19893,7 +19830,7 @@ msgstr "제로 분할 수지를 가진 계정 포함"
 #: ../src/report/standard-reports/sx-summary.scm:80
 #: ../src/report/standard-reports/trial-balance.scm:126
 msgid "Display accounts as hyperlinks"
-msgstr "계정을 하이버링크로 보기"
+msgstr "계정을 하이퍼링크로 보기"
 
 #: ../src/report/business-reports/balsheet-eg.scm:266
 #: ../src/report/standard-reports/account-summary.scm:100
@@ -19903,14 +19840,12 @@ msgstr "계정을 하이버링크로 보기"
 #: ../src/report/standard-reports/income-statement.scm:89
 #: ../src/report/standard-reports/sx-summary.scm:81
 #: ../src/report/standard-reports/trial-balance.scm:127
-#, fuzzy
 msgid "Shows each account in the table as a hyperlink to its register window."
-msgstr "등록 창에 표의 각 계정을 하이퍼링크로 보기"
+msgstr "테이블의 각 계정에 입력기 창 링크를 연결합니다."
 
 #: ../src/report/business-reports/balsheet-eg.scm:268
-#, fuzzy
 msgid "Negative amount format"
-msgstr "음의 값은 허용하지 않음"
+msgstr "음수 포맷"
 
 #: ../src/report/business-reports/balsheet-eg.scm:270
 msgid ""
@@ -19950,9 +19885,8 @@ msgstr ""
 #: ../src/report/business-reports/balsheet-eg.scm:279
 #: ../src/report/business-reports/receipt.scm:86
 #: ../src/report/business-reports/taxinvoice.scm:113
-#, fuzzy
 msgid "CSS stylesheet file"
-msgstr "스타일시트"
+msgstr "CSS 스타일시트 파일"
 
 #: ../src/report/business-reports/balsheet-eg.scm:281
 msgid ""
@@ -20186,19 +20120,16 @@ msgid ""
 msgstr ""
 
 #: ../src/report/business-reports/customer-summary.scm:84
-#, fuzzy
 msgid "Show Inactive Customers"
-msgstr "고객 보고서"
+msgstr "휴면고객 보기"
 
 #: ../src/report/business-reports/customer-summary.scm:85
-#, fuzzy
 msgid "Include customers that have been marked inactive."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "휴면처리된 고객을 포함합니다."
 
 #: ../src/report/business-reports/customer-summary.scm:87
-#, fuzzy
 msgid "Sort Column"
-msgstr "계정 선택"
+msgstr "정렬기준 열"
 
 #: ../src/report/business-reports/customer-summary.scm:88
 #, fuzzy
@@ -20212,12 +20143,11 @@ msgstr "열 오름차 또는 내림차 정렬"
 
 #: ../src/report/business-reports/customer-summary.scm:449
 msgid "Customer Name"
-msgstr "고객 이믈"
+msgstr "고객 이름"
 
 #: ../src/report/business-reports/customer-summary.scm:450
-#, fuzzy
 msgid "Sort alphabetically by customer name."
-msgstr "계정명에 의한 정렬 & 부분합계"
+msgstr "고객 이름 기준으로 정렬합니다."
 
 #: ../src/report/business-reports/customer-summary.scm:452
 #: ../src/report/business-reports/customer-summary.scm:837
@@ -20227,15 +20157,14 @@ msgid "Profit"
 msgstr "이익"
 
 #: ../src/report/business-reports/customer-summary.scm:453
-#, fuzzy
 msgid "Sort by profit amount."
-msgstr "양에 의한 배열"
+msgstr "이익 규모 기준으로 정렬합니다."
 
 #. Translators: "Markup" is profit amount divided by sales amount
 #: ../src/report/business-reports/customer-summary.scm:456
 #: ../src/report/business-reports/customer-summary.scm:837
 msgid "Markup"
-msgstr "마크럽"
+msgstr "마크업"
 
 #: ../src/report/business-reports/customer-summary.scm:457
 msgid "Sort by markup (which is profit amount divided by sales)."
@@ -20243,17 +20172,16 @@ msgstr ""
 
 #: ../src/report/business-reports/customer-summary.scm:459
 #: ../src/report/business-reports/customer-summary.scm:837
-#, fuzzy
 msgid "Sales"
-msgstr "구매 계좌수"
+msgstr "판매량"
 
 #: ../src/report/business-reports/customer-summary.scm:460
 msgid "Sort by sales amount."
-msgstr "판매량 기준 정"
+msgstr "판매량 기준으로 정렬합니다."
 
 #: ../src/report/business-reports/customer-summary.scm:463
 msgid "Sort by expense amount."
-msgstr "비용 기준 정렬"
+msgstr "비용 기준으로 정렬합니다."
 
 #: ../src/report/business-reports/customer-summary.scm:472
 #: ../src/report/standard-reports/transaction.scm:821
@@ -20534,25 +20462,25 @@ msgstr "참조"
 #: ../src/report/business-reports/fancy-invoice.scm:315
 #: ../src/report/business-reports/invoice.scm:300
 msgid "Display the invoice references?"
-msgstr "청구서 참조 보일까요?"
+msgstr "청구서 참조를 표시할까요?"
 
 #: ../src/report/business-reports/easy-invoice.scm:329
 #: ../src/report/business-reports/fancy-invoice.scm:319
 #: ../src/report/business-reports/invoice.scm:304
 msgid "Billing Terms"
-msgstr "어음 조건"
+msgstr "지불 조건"
 
 #: ../src/report/business-reports/easy-invoice.scm:330
 #: ../src/report/business-reports/fancy-invoice.scm:320
 #: ../src/report/business-reports/invoice.scm:305
 msgid "Display the invoice billing terms?"
-msgstr "청구서 어음 조건 보기"
+msgstr "청구서 지급 조건을 표시할까요?"
 
 #: ../src/report/business-reports/easy-invoice.scm:335
 #: ../src/report/business-reports/fancy-invoice.scm:325
 #: ../src/report/business-reports/invoice.scm:310
 msgid "Display the billing id?"
-msgstr "어음 ID 보일까요?"
+msgstr "지급 ID 보일까요?"
 
 #: ../src/report/business-reports/easy-invoice.scm:340
 #: ../src/report/business-reports/fancy-invoice.scm:330
@@ -21112,9 +21040,8 @@ msgid "The format for the date->string conversion for today's date."
 msgstr "오늘 날짜의 날짜->문자열 변환 형식"
 
 #: ../src/report/business-reports/receipt.scm:191
-#, fuzzy
 msgid "Payment received, thank you"
-msgstr "지불, 감사"
+msgstr "지급이 완료되었습니다. 감사합니다."
 
 #: ../src/report/business-reports/receipt.scm:195
 msgid "Notes added at end of invoice -- may contain HTML markup"
@@ -21134,18 +21061,16 @@ msgid "The receivables account you wish to examine."
 msgstr "조사하기 원하는 지불할 계정"
 
 #: ../src/report/business-reports/receivables.scm:68
-#, fuzzy
 msgid "Address source."
-msgstr "주소: "
+msgstr "주소 출처."
 
 #: ../src/report/business-reports/receivables.scm:71
 msgid "Billing"
-msgstr "청구서"
+msgstr "지급"
 
 #: ../src/report/business-reports/receivables.scm:71
-#, fuzzy
 msgid "Address fields from billing address."
-msgstr "어음 수신처를 넣어야 합니다."
+msgstr "지급 주소에서 주소를 입력합니다."
 
 #: ../src/report/business-reports/receivables.scm:72
 #, fuzzy
@@ -21175,18 +21100,16 @@ msgstr "투자"
 
 #. option names
 #: ../src/report/business-reports/taxinvoice.scm:90
-#, fuzzy
 msgid "column: Date"
-msgstr "어음 만기일"
+msgstr "column: 날짜"
 
 #: ../src/report/business-reports/taxinvoice.scm:91
-#, fuzzy
 msgid "column: Tax Rate"
-msgstr "관련 세금"
+msgstr "column: 세율"
 
 #: ../src/report/business-reports/taxinvoice.scm:92
 msgid "column: Units"
-msgstr ""
+msgstr "column: 단위"
 
 #: ../src/report/business-reports/taxinvoice.scm:93
 msgid "row: Address"
@@ -21943,9 +21866,8 @@ msgstr "HTML 스타일 시트 속성: %s"
 #. If the name is empty, we display an error dialog but
 #. * refuse to create the new style sheet.
 #: ../src/report/report-gnome/dialog-report-style-sheet.c:238
-#, fuzzy
 msgid "You must provide a name for the new style sheet."
-msgstr "이 어음 조건 이름을 제공하여야 합니다."
+msgstr "새 스타일시트의 이름을 입력하셔야 합니다."
 
 #: ../src/report/report-gnome/dialog-report-style-sheet.c:419
 msgid "Style Sheet Name"
@@ -23079,7 +23001,7 @@ msgstr "부모 계정 부분합계"
 #: ../src/report/standard-reports/sx-summary.scm:69
 #: ../src/report/standard-reports/trial-balance.scm:122
 msgid "Include accounts with zero total balances"
-msgstr ""
+msgstr "총잔고 0인 계정 포함"
 
 #: ../src/report/standard-reports/account-summary.scm:90
 #: ../src/report/standard-reports/balance-sheet.scm:103
@@ -23088,9 +23010,8 @@ msgstr ""
 #: ../src/report/standard-reports/income-statement.scm:79
 #: ../src/report/standard-reports/sx-summary.scm:71
 #: ../src/report/standard-reports/trial-balance.scm:124
-#, fuzzy
 msgid "Include accounts with zero total (recursive) balances in this report."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "총잔고(하위계정 포함)가 0인 계정을 이 보고서에 포함합니다."
 
 #: ../src/report/standard-reports/account-summary.scm:91
 #: ../src/report/standard-reports/balance-sheet.scm:104
@@ -23241,7 +23162,7 @@ msgstr "고급 포트폴리오"
 #: ../src/report/standard-reports/advanced-portfolio.scm:42
 #: ../src/report/standard-reports/portfolio.scm:38
 msgid "Share decimal places"
-msgstr "분할 소수점 위치"
+msgstr "주식 소수점 위치"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:43
 #: ../src/report/standard-reports/portfolio.scm:39
@@ -23360,9 +23281,8 @@ msgid "The number of decimal places to use for share numbers."
 msgstr "분할 갯수로 사용하기 위한 소수점 위치 번호"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:152
-#, fuzzy
 msgid "Display share prices."
-msgstr "주식 가격 보기"
+msgstr "주가를 표시합니다."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:160
 #: ../src/report/standard-reports/portfolio.scm:73
@@ -23373,7 +23293,7 @@ msgstr "보고하기 위한 주식 계정"
 #: ../src/report/standard-reports/advanced-portfolio.scm:172
 #: ../src/report/standard-reports/portfolio.scm:85
 msgid "Include accounts that have a zero share balances."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "주식잔고가 0인 계정을 포함합니다."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1060
 #: ../src/report/standard-reports/portfolio.scm:257
@@ -23396,33 +23316,31 @@ msgstr "출금"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1076
 msgid "Realized Gain"
-msgstr "실제 이득"
+msgstr "실현이익"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1077
 msgid "Unrealized Gain"
-msgstr "미회수 이득"
+msgstr "미실현이익"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1078
 msgid "Total Gain"
-msgstr "전체 이득"
+msgstr "전체 이익"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1079
-#, fuzzy
 msgid "Rate of Gain"
-msgstr "실제 이득"
+msgstr "이익률"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1083
 msgid "Brokerage Fees"
-msgstr ""
+msgstr "거래수수료"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1085
 msgid "Total Return"
-msgstr "총 수익"
+msgstr "전체 수익"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1086
-#, fuzzy
 msgid "Rate of Return"
-msgstr "보고서 날짜"
+msgstr "수익률"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:1178
 msgid ""
@@ -24100,16 +24018,14 @@ msgid ""
 msgstr ""
 
 #: ../src/report/standard-reports/budget.scm:67
-#, fuzzy
 msgid "Include accounts with zero total balances and budget values"
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "잔고 및 예산이 0인 계정 포함"
 
 #: ../src/report/standard-reports/budget.scm:68
-#, fuzzy
 msgid ""
 "Include accounts with zero total (recursive) balances and budget values in "
 "this report."
-msgstr "제로 분할 수지를 가진 계정 포함"
+msgstr "총잔고와 예산이 0인 계정을 이 보고서에 포함합니다."
 
 #: ../src/report/standard-reports/budget.scm:78
 msgid "Select a budget period type that starts the reporting range."
@@ -25036,7 +24952,7 @@ msgstr "일반 통화"
 
 #: ../src/report/standard-reports/transaction.scm:143
 msgid "Split Transaction"
-msgstr "거래 분할"
+msgstr "거래 나누기"
 
 #: ../src/report/standard-reports/transaction.scm:244
 msgid "Total For "
@@ -25162,7 +25078,7 @@ msgstr "통장정리한 날짜에 의한 정렬"
 #: ../src/report/standard-reports/transaction.scm:736
 #: ../src/report/standard-reports/transaction.scm:791
 msgid "Register Order"
-msgstr "등록 순서"
+msgstr "입력기 정렬"
 
 #: ../src/report/standard-reports/transaction.scm:737
 #: ../src/report/standard-reports/transaction.scm:792
@@ -25301,7 +25217,7 @@ msgstr "계정 코드를 보기"
 msgid ""
 "Display the other account name? (if this is a split transaction, this "
 "parameter is guessed)."
-msgstr "다른 계정명을 보일까요?(분할거래시 이 인자로 추측함)."
+msgstr "다른 계정명을 보일까요?(부분거래시 이 인자로 추측함)."
 
 #: ../src/report/standard-reports/transaction.scm:945
 #, fuzzy
