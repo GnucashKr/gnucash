@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-03 03:19+0000\n"
-"PO-Revision-Date: 2017-05-08 00:39+0900\n"
+"PO-Revision-Date: 2017-05-10 18:57+0900\n"
 "Last-Translator: Jin, Heonkyu <heonkyu.jin@gmail.com>\n"
 "Language-Team: Korean <yongdoria@gmail.com>\n"
 "Language: ko\n"
@@ -1906,7 +1906,7 @@ msgstr "선택된 계정이 없음. 다시 시도해 주십시오."
 
 #: ../src/business/business-gnome/dialog-date-close.c:82
 msgid "Placeholder account selected. Please try again."
-msgstr "견본 계정을 선택하셨습니다. 다시 시도해 주십시오."
+msgstr "거래불포함 계정을 선택하셨습니다. 다시 시도해 주십시오."
 
 #: ../src/business/business-gnome/dialog-employee.c:225
 msgid "You must enter a username."
@@ -3510,7 +3510,7 @@ msgstr ""
 
 #: ../src/business/business-gnome/gtkbuilder/business-prefs.glade.h:10
 msgid "_Days in advance:"
-msgstr "만기까지 남은 일:"
+msgstr "미리 알림기간(일)"
 
 #: ../src/business/business-gnome/gtkbuilder/business-prefs.glade.h:11
 msgid "_Notify when due"
@@ -5187,7 +5187,7 @@ msgstr "기존 계정"
 #: ../src/gnome/assistant-hierarchy.c:982
 #: ../src/gnome-utils/gnc-tree-view-account.c:891
 msgid "Placeholder"
-msgstr "자리표시자"
+msgstr "거래불포함"
 
 #: ../src/gnome/assistant-hierarchy.c:1013
 msgid "Use Existing"
@@ -7334,7 +7334,7 @@ msgid ""
 "checkbox."
 msgstr ""
 "이 계정은 변경할 수 없습니다. 입력기에서 거래를 편집하고 싶으시면 계정 설정"
-"을 열고 자리표시자 체크상자를 끄십시오."
+"을 열고 거래불포함 체크상자를 끄십시오."
 
 #: ../src/gnome/gnc-split-reg2.c:990 ../src/gnome/gnc-split-reg.c:2157
 msgid ""
@@ -13469,9 +13469,8 @@ msgid "Introduction placeholder"
 msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:6
-#, fuzzy
 msgid "Title placeholder"
-msgstr "자리표시자"
+msgstr "제목 틀"
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:7
 msgid "_Edit list of encodings"
@@ -13486,9 +13485,8 @@ msgid "Convert the file"
 msgstr "파일 변환"
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:10
-#, fuzzy
 msgid "finish placeholder"
-msgstr "자리표시자"
+msgstr "종료 틀"
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:11
 msgid "Finish GnuCash Datafile Import"
@@ -13573,7 +13571,7 @@ msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:22
 msgid "Placeholde_r"
-msgstr "자리표시자(_R)"
+msgstr "거래불포함(_R)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:23
 msgid ""
@@ -14521,9 +14519,8 @@ msgid "Tab order in_cludes Transfer on Memorised Transactions"
 msgstr ""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:148
-#, fuzzy
 msgid "Move to Transfer field when memorised transaction auto filled."
-msgstr "자동완성"
+msgstr "거래 자동완성 이후 이체 필드로 커서 이동"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:150
 msgid "<b>Default Style</b>"
@@ -14987,7 +14984,7 @@ msgstr "에서"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:35
 msgid "5th"
-msgstr ""
+msgstr "5일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:36
 msgid "6th"
@@ -14995,7 +14992,7 @@ msgstr "6번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:37
 msgid "7th"
-msgstr ""
+msgstr "7"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:38
 msgid "8th"
@@ -15003,15 +15000,15 @@ msgstr "8번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:39
 msgid "9th"
-msgstr ""
+msgstr "9일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:40
 msgid "10th"
-msgstr ""
+msgstr "10일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:41
 msgid "11th"
-msgstr ""
+msgstr "11일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:42
 msgid "12th"
@@ -15019,27 +15016,27 @@ msgstr "12번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:43
 msgid "13th"
-msgstr ""
+msgstr "13일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:44
 msgid "14th"
-msgstr ""
+msgstr "14일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:45
 msgid "15th"
-msgstr ""
+msgstr "15일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:46
 msgid "16th"
-msgstr ""
+msgstr "16일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:47
 msgid "17th"
-msgstr ""
+msgstr "17일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:48
 msgid "18th"
-msgstr ""
+msgstr "18일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:49
 msgid "19th"
@@ -15047,27 +15044,27 @@ msgstr "19번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:50
 msgid "20th"
-msgstr ""
+msgstr "20일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:51
 msgid "21st"
-msgstr ""
+msgstr "21일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:52
 msgid "22nd"
-msgstr ""
+msgstr "22일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:53
 msgid "23rd"
-msgstr ""
+msgstr "23일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:54
 msgid "24th"
-msgstr ""
+msgstr "24일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:55
 msgid "25th"
-msgstr ""
+msgstr "25일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:56
 msgid "26th"
@@ -15075,11 +15072,11 @@ msgstr "26번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:57
 msgid "27th"
-msgstr ""
+msgstr "27일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:58
 msgid "28th"
-msgstr ""
+msgstr "28일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:59
 msgid "29th"
@@ -15087,11 +15084,11 @@ msgstr "29번째"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:60
 msgid "30th"
-msgstr ""
+msgstr "30일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:61
 msgid "31st"
-msgstr ""
+msgstr "31일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:62
 msgid "Last day of month"
@@ -15139,115 +15136,115 @@ msgstr "다음 요일 사용"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:73
 msgid "1st Mon"
-msgstr ""
+msgstr "첫번째 월요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:74
 msgid "1st Tue"
-msgstr ""
+msgstr "첫번째 화요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:75
 msgid "1st Wed"
-msgstr ""
+msgstr "첫번째 수요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:76
 msgid "1st Thu"
-msgstr ""
+msgstr "첫번째 목요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:77
 msgid "1st Fri"
-msgstr ""
+msgstr "첫번째 금요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:78
 msgid "1st Sat"
-msgstr ""
+msgstr "첫번째 토요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:79
 msgid "1st Sun"
-msgstr ""
+msgstr "첫번째 일요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:80
 msgid "2nd Mon"
-msgstr ""
+msgstr "두번째 월요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:81
 msgid "2nd Tue"
-msgstr ""
+msgstr "두번째 화요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:82
 msgid "2nd Wed"
-msgstr ""
+msgstr "두번째 수요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:83
 msgid "2nd Thu"
-msgstr ""
+msgstr "두번째 목요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:84
 msgid "2nd Fri"
-msgstr ""
+msgstr "두번째 금요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:85
 msgid "2nd Sat"
-msgstr ""
+msgstr "두번째 토요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:86
 msgid "2nd Sun"
-msgstr ""
+msgstr "두번째 일요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:87
 msgid "3rd Mon"
-msgstr ""
+msgstr "세번째 월요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:88
 msgid "3rd Tue"
-msgstr ""
+msgstr "세번째 화요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:89
 msgid "3rd Wed"
-msgstr ""
+msgstr "세번째 수요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:90
 msgid "3rd Thu"
-msgstr ""
+msgstr "세번째 목요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:91
 msgid "3rd Fri"
-msgstr ""
+msgstr "세번째 금요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:92
 msgid "3rd Sat"
-msgstr ""
+msgstr "세번째 토요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:93
 msgid "3rd Sun"
-msgstr ""
+msgstr "세번째 일요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:94
 msgid "4th Mon"
-msgstr ""
+msgstr "네번째 월요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:95
 msgid "4th Tue"
-msgstr ""
+msgstr "네번째 화요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:96
 msgid "4th Wed"
-msgstr ""
+msgstr "네번째 수요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:97
 msgid "4th Thu"
-msgstr ""
+msgstr "네번째 목요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:98
 msgid "4th Fri"
-msgstr ""
+msgstr "네번째 금요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:99
 msgid "4th Sat"
-msgstr ""
+msgstr "네번째 토요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:100
 msgid "4th Sun"
-msgstr ""
+msgstr "네번째 일요일"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:1
 msgid "day(s)"
@@ -15490,14 +15487,13 @@ msgid "Start Online Banking Wizard"
 msgstr "온라인 뱅킹 마법사 시작"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:22
-#, fuzzy
 msgid ""
 "Double Click on the line of an Online Banking account name if you want to "
 "match it to a GnuCash account. Click \"Forward\" when all desired accounts "
 "are matching."
 msgstr ""
-"그것을 GnuCash 계정과 일치시킨다면 온라인 뱅킹 계정명의 라인을 클릭. 전체 원"
-"하는 계정을 일치시킨 후 \"앞으로\" 클릭"
+"인터넷뱅킹 계좌명을 더블클릭하시면 GnuCash 계정에 할당됩니다. 모든 계정이 할"
+"당되었으면 \"앞으로\"를 클릭해 주세요."
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:23
 msgid "Match Online accounts with GnuCash accounts"
@@ -15795,24 +15791,20 @@ msgid "Enter a SEPA Online Direct Debit Note"
 msgstr ""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:409
-#, fuzzy
 msgid "Debited IBAN (International Account Number)"
-msgstr "입금 계정 번호"
+msgstr "입금 IBAN (국제 계좌 번호)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:411
-#, fuzzy
 msgid "Debited BIC (Bank Code)"
-msgstr "입금 계정 은행 코드"
+msgstr "입금 BIC (은행 코드)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:416
-#, fuzzy
 msgid "Credited IBAN (International Account Number)"
-msgstr "입금 계정 번호"
+msgstr "출금 IBAN (국제 계좌 번호)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:418
-#, fuzzy
 msgid "Credited BIC (Bank Code)"
-msgstr "입금 계정 은행 코드"
+msgstr "출금 BIC (은행 코드)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:497
 #, c-format
@@ -15911,9 +15903,8 @@ msgid ""
 msgstr ""
 
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:160
-#, fuzzy
 msgid "Online action \"Get Transactions\" not available for this account."
-msgstr "이 계정에서 거래 보고서 실행"
+msgstr "이 계정에서는 \"거래 가져오기\"를 실행하실 수 없습니다."
 
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:213
 msgid ""
@@ -16422,17 +16413,17 @@ msgstr "간단한 레이아웃"
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:8
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:27
 msgid "Comma (,)"
-msgstr ""
+msgstr "쉼표 (,)"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:9
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:28
 msgid "Colon (:)"
-msgstr ""
+msgstr "콜론 (:)"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:10
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:29
 msgid "Semicolon (;)"
-msgstr ""
+msgstr "세미콜론 (;)"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:12
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.glade.h:23
@@ -16711,23 +16702,23 @@ msgstr "헤더 행 갯수"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:17
 msgid "Comma Separated"
-msgstr ""
+msgstr "쉼표로 구분"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:18
 msgid "Semicolon Separated"
-msgstr ""
+msgstr "세미콜론으로 구분"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:19
 msgid "Custom regular Expression"
-msgstr ""
+msgstr "사용자지정 정규표현식"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:20
 msgid "Colon Separated"
-msgstr ""
+msgstr "콜론으로 구분"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:21
 msgid "Select Separator Type"
-msgstr ""
+msgstr "구분자 선택"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:22
 msgid "Preview"
@@ -16759,7 +16750,7 @@ msgstr ""
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:781
 msgid "Delete the Import Settings."
-msgstr ""
+msgstr "가져오기 설정을 삭제합니다."
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:815
 msgid "Setting name already exists, over write?"
@@ -16767,7 +16758,7 @@ msgstr ""
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:829
 msgid "The settings have been saved."
-msgstr ""
+msgstr "설정값이 저장되었습니다."
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:854
 msgid "There was a problem saving the settings, please try again."
@@ -16780,11 +16771,11 @@ msgstr "잘못된 문자인코딩 선택"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1138
 msgid "Merge with column on _left"
-msgstr ""
+msgstr "왼쪽 열과 병합(_L)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1142
 msgid "Merge with column on _right"
-msgstr ""
+msgstr "오른쪽 열과 병합(_R)"
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1147
 msgid "_Split this column"
@@ -16830,7 +16821,7 @@ msgstr ""
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1905
 msgid "Double click on rows to change, then click on Apply to Import"
-msgstr ""
+msgstr "바꾸고 싶은 행을 더블클릭하신 뒤, ‘적용’ 버튼을 누르면 가져오기합니다."
 
 #: ../src/import-export/csv-imp/assistant-csv-trans-import.cpp:1937
 msgid "The transactions were imported from the file '"
@@ -17204,11 +17195,11 @@ msgstr ""
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:613
 msgid "No deposit or withdrawal column."
-msgstr ""
+msgstr "입금이나 출금 열이 없습니다."
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:619
 msgid "Split is reconciled but reconcile date column is missing or invalid."
-msgstr ""
+msgstr "부분거래가 마감되었는데, 마감일이 없거나 잘못되었습니다."
 
 #: ../src/import-export/csv-imp/gnc-trans-props.cpp:626
 msgid ""
@@ -17256,9 +17247,8 @@ msgid "Please select a date column."
 msgstr "날짜 열을 선택해 주십시오."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:478
-#, fuzzy
 msgid "Please select an account column."
-msgstr "유효한 대출 계정을 선택하시오."
+msgstr "계정 열을 선택해 주세요."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:480
 msgid ""
@@ -17266,21 +17256,18 @@ msgid ""
 msgstr ""
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:486
-#, fuzzy
 msgid "Please select a description column."
-msgstr "조건부날인 증서(에스크로) 계정을 선택하시오."
+msgstr "상세 열을 선택해 주세요."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:492
-#, fuzzy
 msgid "Please select a deposit or withdrawal column."
-msgstr "유효한 대출 계정을 선택하시오."
+msgstr "입금이나 출금 계정을 선택해 주세요."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:502
-#, fuzzy
 msgid ""
 "Please select a transfer account column or remove the other transfer related "
 "columns."
-msgstr "이체 계정을 선택하거나 잔고 자기자본 계정을 선택하여야 합니다."
+msgstr "이체 계정 열을 선택하거나, 다른 이체 관련 열을 제거해 주세요."
 
 #: ../src/import-export/csv-imp/gnc-tx-import.cpp:522
 msgid ""
@@ -17338,9 +17325,8 @@ msgid ""
 msgstr ""
 
 #: ../src/import-export/dialog-import.glade.h:9
-#, fuzzy
 msgid "Enable update match action"
-msgstr "작업 일치 편집 가능"
+msgstr "대응계정 업데이트 허용"
 
 #: ../src/import-export/dialog-import.glade.h:10
 #: ../src/import-export/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in.in.h:4
@@ -17539,7 +17525,7 @@ msgstr "작업 일치 편집 가능"
 
 #: ../src/import-export/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in.in.h:5
 msgid "Use bayesian matching"
-msgstr ""
+msgstr "베이시언 매칭 사용"
 
 #: ../src/import-export/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in.in.h:6
 msgid ""
@@ -17718,9 +17704,8 @@ msgid "Confidence"
 msgstr ""
 
 #: ../src/import-export/import-match-picker.c:438
-#, fuzzy
 msgid "Pending Action"
-msgstr "온라인 작업(_O)"
+msgstr "보류중인 작업"
 
 #: ../src/import-export/import-pending-matches.c:196
 #: ../src/report/business-reports/balsheet-eg.scm:326
@@ -17783,9 +17768,8 @@ msgid "Income account for security \"%s\""
 msgstr "증권 \"%s\"를 저장할 수입 계좌"
 
 #: ../src/import-export/ofx/gnc-ofx-import.c:860
-#, fuzzy
 msgid "Unknown OFX account"
-msgstr "미지의 OFX CMA 계정"
+msgstr "알 수 없는 OFX 계정"
 
 #: ../src/import-export/ofx/gnc-ofx-import.c:883
 msgid "Unknown OFX checking account"
@@ -17833,9 +17817,8 @@ msgstr "GnuCash 계정명"
 
 #: ../src/import-export/qif-imp/assistant-qif-import.c:839
 #: ../src/import-export/qif-imp/assistant-qif-import.c:2681
-#, fuzzy
 msgid "Enter a name or short description, such as \"Red Hat Stock\"."
-msgstr "\"레드햇 주식\"과 같은 상품의 전체 이름 입력"
+msgstr "이름이나 간단한 설명(가령, \"네이버 주식\")을 입력해 주세요."
 
 #: ../src/import-export/qif-imp/assistant-qif-import.c:841
 #: ../src/import-export/qif-imp/assistant-qif-import.c:2688
@@ -17853,14 +17836,12 @@ msgid ""
 msgstr ""
 
 #: ../src/import-export/qif-imp/assistant-qif-import.c:869
-#, fuzzy
 msgid "Enter information about"
-msgstr "\"%s\"에 대한 정보 입력"
+msgstr "다음 정보를 입력해 주세요: "
 
 #: ../src/import-export/qif-imp/assistant-qif-import.c:885
-#, fuzzy
 msgid "_Name or description:"
-msgstr "세부 항목(_D)"
+msgstr "이름/상세(_N):"
 
 #: ../src/import-export/qif-imp/assistant-qif-import.c:905
 #, fuzzy
@@ -18379,7 +18360,7 @@ msgstr ""
 #: ../src/import-export/qif-imp/dialog-account-picker.glade.h:11
 msgid ""
 "Default transaction status (overridden by the status given by the QIF file)"
-msgstr ""
+msgstr "기본 거래 상태값 (QIF파일 내의 상태값이 없을 때 사용)"
 
 #: ../src/import-export/qif-imp/dialog-account-picker.glade.h:13
 #, fuzzy
@@ -18532,9 +18513,8 @@ msgid "Category budget amount"
 msgstr "양에 의한 배열"
 
 #: ../src/import-export/qif-imp/qif-file.scm:683
-#, fuzzy
 msgid "Account budget amount"
-msgstr "계정 삭제"
+msgstr "계정 예산금액"
 
 #: ../src/import-export/qif-imp/qif-file.scm:684
 msgid "Credit limit"
@@ -18579,18 +18559,16 @@ msgid "Value '%s' could be %s or %s."
 msgstr ""
 
 #: ../src/import-export/qif-imp/qif-merge-groups.scm:113
-#, fuzzy
 msgid "Finding duplicate transactions"
-msgstr "복제된 거래 찾는 중..."
+msgstr "중복 거래 찾는 중..."
 
 #: ../src/import-export/qif-imp/qif-parse.scm:191
 msgid "Unrecognized account type '%s'. Defaulting to Bank."
 msgstr ""
 
 #: ../src/import-export/qif-imp/qif-parse.scm:298
-#, fuzzy
 msgid "Unrecognized action '%s'."
-msgstr "미회수 이득"
+msgstr "알 수 없는 작업 '%s'."
 
 #: ../src/import-export/qif-imp/qif-parse.scm:323
 msgid "Unrecognized status '%s'. Defaulting to uncleared."
@@ -18609,18 +18587,16 @@ msgid "Creating accounts"
 msgstr "계정 생성중"
 
 #: ../src/import-export/qif-imp/qif-to-gnc.scm:375
-#, fuzzy
 msgid "Matching transfers between accounts"
-msgstr "일치 계정 없음"
+msgstr "계정간 거래 맞추는 중"
 
 #: ../src/import-export/qif-imp/qif-to-gnc.scm:393
 msgid "Converting"
 msgstr "변환중"
 
 #: ../src/import-export/qif-imp/qif-to-gnc.scm:478
-#, fuzzy
 msgid "Missing transaction date."
-msgstr "거래 날짜를 보입니까?"
+msgstr "거래일이 없습니다."
 
 #. The default date format for use with strftime in Win32.
 #: ../src/libqof/qof/gnc-date.cpp:77
@@ -18630,14 +18606,12 @@ msgstr ""
 #. The default date format for use with strftime in other OS.
 #. Translators: call "man strftime" for possible values.
 #: ../src/libqof/qof/gnc-date.cpp:81
-#, fuzzy
 msgid "%B %e, %Y"
-msgstr "%Y.%B.%e"
+msgstr "%Y-%B-%d"
 
 #: ../src/libqof/qof/gnc-datetime.cpp:379
-#, fuzzy
 msgid "Unknown date format specifier passed as argument."
-msgstr "시스템 로케일에 의해 지정된 날짜 형식 사용"
+msgstr "인수로 전달된 날짜 형식을 알 수 없습니다."
 
 #: ../src/plugins/bi_import/dialog-bi-import.c:282
 #, c-format
@@ -18674,9 +18648,8 @@ msgid "These rows were deleted:"
 msgstr "이 행들이 삭제되었습니다:"
 
 #: ../src/plugins/bi_import/dialog-bi-import.c:654
-#, fuzzy
 msgid "Are you sure you have bills/invoices to update?"
-msgstr "이렇게 하시겠습니까?"
+msgstr "정말로 업데이트할 영수증이나 청구서가 있습니까?"
 
 #: ../src/plugins/bi_import/dialog-bi-import.c:812
 #, c-format
@@ -18903,9 +18876,8 @@ msgid ""
 msgstr ""
 
 #: ../src/register/ledger-core/split-register-control.c:1363
-#, fuzzy
 msgid "You need to select a split in order to modify its exchange rate."
-msgstr "환전비율을 수정하기 위하여 거래를 확대할 필요가 있습니다."
+msgstr "환율을 수정하시려면 부분거래를 선택해 주셔야 합니다."
 
 #: ../src/register/ledger-core/split-register-control.c:1390
 msgid "The entered account could not be found."
@@ -19035,47 +19007,43 @@ msgid ""
 msgstr "청구서이나 체크번호와 같은 거래 참조를 입력"
 
 #: ../src/register/ledger-core/split-register-model.c:1009
-#, fuzzy
 msgid ""
 "Enter a reference, such as an invoice or check number, unique to each entry "
 "line (split)"
-msgstr "청구서이나 체크번호아 같은 거래 참조를 입력"
+msgstr ""
+"청구서나 수표 번호와 같은 참조번호를 각 행마다 중복되지 않게 입력 (split)"
 
 #: ../src/register/ledger-core/split-register-model.c:1014
-#, fuzzy
 msgid ""
 "Enter a reference, such as a check number, common to all entry lines (splits)"
-msgstr "청구서이나 체크번호아 같은 거래 참조를 입력"
+msgstr "수표 번호와 같은 참조번호를 모든 행 공통으로 입력 (splits)"
 
 #: ../src/register/ledger-core/split-register-model.c:1016
-#, fuzzy
 msgid ""
 "Enter a reference, such as a check number, unique to each entry line (split)"
-msgstr "청구서이나 체크번호아 같은 거래 참조를 입력"
+msgstr "수표 번호와 같은 참조번호를 각 행마다 중복되지 않게 입력 (split)"
 
 #: ../src/register/ledger-core/split-register-model.c:1037
-#, fuzzy
 msgid ""
 "Enter a transaction reference, such as an invoice or check number, common to "
 "all entry lines (splits)"
-msgstr "청구서이나 체크번호아 같은 거래 참조를 입력"
+msgstr ""
+"청구서나 수표 번호와 같은 거래참조번호를 모든 행 공통으로 입력 (splits)"
 
 #: ../src/register/ledger-core/split-register-model.c:1041
-#, fuzzy
 msgid ""
 "Enter a transaction reference that will be common to all entry lines (splits)"
-msgstr "청구서이나 체크번호아 같은 거래 참조를 입력"
+msgstr "거래참조번호를 모든 행 공통으로 입력 (splits)"
 
 #: ../src/register/ledger-core/split-register-model.c:1244
 msgid "Enter an action type, or choose one from the list"
 msgstr "작업 유형을 입력하거나 목록에서 선택"
 
 #: ../src/register/ledger-core/split-register-model.c:1245
-#, fuzzy
 msgid ""
 "Enter a reference number, such as the next check number, or choose an action "
 "type from the list"
-msgstr "엔트리의 수입/지출 계정을 입력 또는 목록에서 하나를 선택"
+msgstr "다음 수표 번호와 같은 참조번호를 입력하거나 목록에서 작업 종류 선택"
 
 #: ../src/register/ledger-core/split-register-model.c:1508
 msgid ""
@@ -19252,11 +19220,11 @@ msgid "$999,999.99 -> $0, Z->A."
 msgstr "₩1000 -> ₩0, 하->가."
 
 #: ../src/report/business-reports/aging.scm:386
-#, fuzzy
 msgid ""
 "Show multi-currency totals. If not selected, convert all totals to report "
 "currency."
-msgstr "다수-통화 합계 보기. 미선택시 통화를 보고하기 위하여 전체 합계 변환"
+msgstr ""
+"다중화폐 합을 표시. 선택하지 않을 경우, 모든 수치는 기준화폐로 변환됩니다."
 
 #: ../src/report/business-reports/aging.scm:395
 msgid "Show all vendors/customers even if they have a zero balance."
@@ -19656,7 +19624,6 @@ msgid "Prefix negative amounts with a minus sign, e.g. -$10.00."
 msgstr ""
 
 #: ../src/report/business-reports/balsheet-eg.scm:341
-#, fuzzy
 msgid "Brackets"
 msgstr "대괄호"
 
@@ -19718,19 +19685,16 @@ msgid ""
 msgstr ""
 
 #: ../src/report/business-reports/customer-summary.scm:61
-#, fuzzy
 msgid "Show Expense Column"
-msgstr "이름 열 보기"
+msgstr "비용 열 보기"
 
 #: ../src/report/business-reports/customer-summary.scm:62
-#, fuzzy
 msgid "Show the column with the expenses per customer."
-msgstr "주어진 시간 간격당 지출 파이차트 보기"
+msgstr "고객 당 비용 열을 표시합니다."
 
 #: ../src/report/business-reports/customer-summary.scm:63
-#, fuzzy
 msgid "Show Company Address"
-msgstr "회사 주소"
+msgstr "회사 주소 보기"
 
 #: ../src/report/business-reports/customer-summary.scm:64
 msgid "Show your own company's address and the date of printing."
@@ -19812,14 +19776,12 @@ msgid "Sort Column"
 msgstr "정렬기준 열"
 
 #: ../src/report/business-reports/customer-summary.scm:88
-#, fuzzy
 msgid "Choose the column by which the result table is sorted."
-msgstr "주어진 시간 간격당 지출 파이차트 보기"
+msgstr "결과 테이블 정렬 기준 열을 선택해 주세요."
 
 #: ../src/report/business-reports/customer-summary.scm:90
-#, fuzzy
 msgid "Choose the ordering of the column sort: Either ascending or descending."
-msgstr "열 오름차 또는 내림차 정렬"
+msgstr "정렬순서를 선택해 주세요: 오름차순 혹은 내림차순."
 
 #: ../src/report/business-reports/customer-summary.scm:449
 msgid "Customer Name"
@@ -19869,9 +19831,8 @@ msgid "Ascending"
 msgstr "오름차순"
 
 #: ../src/report/business-reports/customer-summary.scm:473
-#, fuzzy
 msgid "A to Z, smallest to largest."
-msgstr "가장 큰 것에서 가장 작은 것, 최근 것서 가장 초기 것"
+msgstr "'가'에서 '하', 가장 작은 값 먼저."
 
 #: ../src/report/business-reports/customer-summary.scm:475
 #: ../src/report/standard-reports/transaction.scm:824
@@ -19879,9 +19840,8 @@ msgid "Descending"
 msgstr "내림차순"
 
 #: ../src/report/business-reports/customer-summary.scm:476
-#, fuzzy
 msgid "Z to A, largest to smallest."
-msgstr "가장 큰 것에서 가장 작은 것, 최근 것서 가장 초기 것"
+msgstr "'하'에서 '가', 가장 큰 값 먼저."
 
 #: ../src/report/business-reports/customer-summary.scm:517
 #: ../src/report/business-reports/job-report.scm:429
@@ -19979,9 +19939,8 @@ msgid "Display the description?"
 msgstr "세부 항목을 보일까요?"
 
 #: ../src/report/business-reports/easy-invoice.scm:260
-#, fuzzy
 msgid "Display the charge type?"
-msgstr "주식 가격 보일까요?"
+msgstr "청구 유형 표시?"
 
 #: ../src/report/business-reports/easy-invoice.scm:265
 #: ../src/report/business-reports/fancy-invoice.scm:275
@@ -19998,16 +19957,14 @@ msgstr "항목당 가격을 보일까요?"
 #: ../src/report/business-reports/easy-invoice.scm:275
 #: ../src/report/business-reports/fancy-invoice.scm:285
 #: ../src/report/business-reports/invoice.scm:270
-#, fuzzy
 msgid "Display the entry's discount?"
-msgstr "기재사항 할인율을 보일까요?"
+msgstr "항목 할인을 표시?"
 
 #: ../src/report/business-reports/easy-invoice.scm:280
 #: ../src/report/business-reports/fancy-invoice.scm:290
 #: ../src/report/business-reports/invoice.scm:275
-#, fuzzy
 msgid "Display the entry's taxable status?"
-msgstr "기재사항 과세가능 상태를 보일까요?"
+msgstr "항목의 과세상테 표시?"
 
 #: ../src/report/business-reports/easy-invoice.scm:285
 #: ../src/report/business-reports/fancy-invoice.scm:295
@@ -20201,9 +20158,8 @@ msgstr "청구서에 넣기 위한 별도 노트(단순 HTML을 허용)"
 #: ../src/report/business-reports/fancy-invoice.scm:347
 #: ../src/report/business-reports/invoice.scm:332
 #: ../src/report/business-reports/taxinvoice.scm:242
-#, fuzzy
 msgid "Thank you for your patronage!"
-msgstr "후원에 감사합니다"
+msgstr "후원 감사드립니다!"
 
 #: ../src/report/business-reports/easy-invoice.scm:432
 #: ../src/report/business-reports/fancy-invoice.scm:461
@@ -20252,7 +20208,6 @@ msgstr "참조"
 
 #: ../src/report/business-reports/easy-invoice.scm:717
 #: ../src/report/business-reports/invoice.scm:690
-#, fuzzy
 msgid "%s #%d"
 msgstr "%s #%d"
 
@@ -20285,9 +20240,8 @@ msgstr "보일 청구서 엔트리의 최소 번호. (-1)"
 
 #: ../src/report/business-reports/fancy-invoice.scm:346
 #: ../src/report/business-reports/invoice.scm:331
-#, fuzzy
 msgid "Extra notes to put on the invoice."
-msgstr "청구서에 넣을 별도 장부"
+msgstr "청구서에 추가할 주석."
 
 #: ../src/report/business-reports/fancy-invoice.scm:351
 msgid "Payable to"
@@ -20366,9 +20320,8 @@ msgstr "지불기한"
 #: ../src/report/business-reports/fancy-invoice.scm:881
 #: ../src/report/business-reports/invoice.scm:724
 #: ../src/report/business-reports/taxinvoice.eguile.scm:251
-#, fuzzy
 msgid "Invoice in progress..."
-msgstr "진행중인 청구서..."
+msgstr "청구서 진행중..."
 
 #: ../src/report/business-reports/invoice.scm:324
 #, fuzzy
@@ -20430,9 +20383,8 @@ msgstr "거래 사용 내역을 보입니까?"
 
 #: ../src/report/business-reports/job-report.scm:409
 #: ../src/report/business-reports/owner-report.scm:610
-#, fuzzy
 msgid "Display the transaction amount?"
-msgstr "거래 날짜를 보입니까?"
+msgstr "거래 수량 표시?"
 
 #: ../src/report/business-reports/job-report.scm:566
 #: ../src/report/business-reports/job-report.scm:678
@@ -20446,46 +20398,38 @@ msgid "Sale"
 msgstr "판매"
 
 #: ../src/report/business-reports/owner-report.scm:80
-#, fuzzy
 msgid "No valid customer selected."
-msgstr "선택된 계정 없음"
+msgstr "고객이 선택되지 않았습니다."
 
 #: ../src/report/business-reports/owner-report.scm:81
-#, fuzzy
 msgid "No valid employee selected."
-msgstr "선택된 유효한 청구서 없음"
+msgstr "종업원이 선택되지 않았습니다."
 
 #. FALL THROUGH
 #: ../src/report/business-reports/owner-report.scm:83
-#, fuzzy
 msgid "No valid company selected."
-msgstr "선택된 유효한 청구서 없음"
+msgstr "회사가 선택되지 않았습니다."
 
 #: ../src/report/business-reports/owner-report.scm:86
-#, fuzzy
 msgid "This report requires a customer to be selected."
-msgstr "이 보고서는 선택된 계정이 필요합니다."
+msgstr "이 보고서를 보시려면 고객을 선택하셔야 합니다."
 
 #: ../src/report/business-reports/owner-report.scm:87
-#, fuzzy
 msgid "This report requires a employee to be selected."
-msgstr "이 보고서는 선택된 계정이 필요합니다."
+msgstr "이 보고서를 보시려면 종업을 선택하셔야 합니다."
 
 #. FALL THROUGH
 #: ../src/report/business-reports/owner-report.scm:89
-#, fuzzy
 msgid "This report requires a company to be selected."
-msgstr "이 보고서는 선택된 계정이 필요합니다."
+msgstr "이 보고서를 보시려면 회사를 선택하셔야 합니다."
 
 #: ../src/report/business-reports/owner-report.scm:105
-#, fuzzy
 msgid "No valid account selected"
-msgstr "선택된 계정 없음"
+msgstr "계정이 선택되지 않았습니다."
 
 #: ../src/report/business-reports/owner-report.scm:106
-#, fuzzy
 msgid "This report requires a valid account to be selected."
-msgstr "이 보고서는 선택된 계정이 필요합니다."
+msgstr "이 보고서를 보시려면 계정을 선택하셔야 합니다."
 
 #: ../src/report/business-reports/owner-report.scm:470
 #, fuzzy
@@ -20493,9 +20437,8 @@ msgid "Period Totals"
 msgstr "기간 시작"
 
 #: ../src/report/business-reports/owner-report.scm:542
-#, fuzzy
 msgid "The company for this report."
-msgstr "이 보고서를 위한 회사"
+msgstr "보고서의 대상 회사."
 
 #: ../src/report/business-reports/owner-report.scm:590
 #, fuzzy
@@ -20557,9 +20500,8 @@ msgstr ""
 
 #: ../src/report/business-reports/receipt.scm:70
 #: ../src/report/business-reports/taxinvoice.scm:77
-#, fuzzy
 msgid "n/a"
-msgstr "없음"
+msgstr "N/A"
 
 #. neither
 #.
@@ -20567,15 +20509,13 @@ msgstr "없음"
 #. option pages
 #: ../src/report/business-reports/receipt.scm:76
 #: ../src/report/business-reports/taxinvoice.scm:83
-#, fuzzy
 msgid "Headings 1"
-msgstr "헤딩"
+msgstr "제목 1"
 
 #: ../src/report/business-reports/receipt.scm:77
 #: ../src/report/business-reports/taxinvoice.scm:84
-#, fuzzy
 msgid "Headings 2"
-msgstr "헤딩"
+msgstr "제목 2"
 
 #. option names
 #: ../src/report/business-reports/receipt.scm:83
@@ -20585,13 +20525,11 @@ msgstr "보고서 제목"
 
 #: ../src/report/business-reports/receipt.scm:87
 #: ../src/report/business-reports/taxinvoice.scm:114
-#, fuzzy
 msgid "Heading font"
-msgstr "머릿말 배너"
+msgstr "제목 글꼴"
 
 #: ../src/report/business-reports/receipt.scm:88
 #: ../src/report/business-reports/taxinvoice.scm:115
-#, fuzzy
 msgid "Text font"
 msgstr "문자 글꼴"
 
@@ -20600,18 +20538,16 @@ msgid "Header logo filename"
 msgstr ""
 
 #: ../src/report/business-reports/receipt.scm:90
-#, fuzzy
 msgid "Header logo width"
-msgstr "도표 너비"
+msgstr "머리글 로고 너비"
 
 #: ../src/report/business-reports/receipt.scm:91
 msgid "Footer logo filename"
 msgstr ""
 
 #: ../src/report/business-reports/receipt.scm:92
-#, fuzzy
 msgid "Footer logo width"
-msgstr "도표 너비"
+msgstr "바닥글 로고 너비"
 
 #: ../src/report/business-reports/receipt.scm:93
 #: ../src/report/business-reports/receipt.scm:168
@@ -20625,7 +20561,6 @@ msgstr "단위"
 #: ../src/report/business-reports/receipt.scm:170
 #: ../src/report/business-reports/taxinvoice.scm:119
 #: ../src/report/business-reports/taxinvoice.scm:206
-#, fuzzy
 msgid "Qty"
 msgstr "수량"
 
@@ -20659,9 +20594,8 @@ msgstr "부분합계"
 
 #: ../src/report/business-reports/receipt.scm:104
 #: ../src/report/business-reports/taxinvoice.scm:129
-#, fuzzy
 msgid "Payment received text"
-msgstr "지불, 감사"
+msgstr "지불 수령안내 문자열"
 
 #: ../src/report/business-reports/receipt.scm:105
 #: ../src/report/business-reports/taxinvoice.scm:130
@@ -20669,7 +20603,6 @@ msgid "Extra notes"
 msgstr "추가 주석"
 
 #: ../src/report/business-reports/receipt.scm:106
-#, fuzzy
 msgid "Today date format"
 msgstr "오늘 날짜 형식"
 
@@ -20688,14 +20621,12 @@ msgid ""
 msgstr ""
 
 #: ../src/report/business-reports/receipt.scm:143
-#, fuzzy
 msgid "Font to use for the main heading"
-msgstr "거래 장부 입력"
+msgstr "제목에 사용할 글"
 
 #: ../src/report/business-reports/receipt.scm:146
-#, fuzzy
 msgid "Font to use for everything else"
-msgstr "거래 장부 입력"
+msgstr "기타 글꼴"
 
 #: ../src/report/business-reports/receipt.scm:149
 msgid "Name of a file containing a logo to be used on the header of the report"
@@ -20757,7 +20688,6 @@ msgid "Address fields from billing address."
 msgstr "지급 주소에서 주소를 입력합니다."
 
 #: ../src/report/business-reports/receivables.scm:72
-#, fuzzy
 msgid "Shipping"
 msgstr "배송"
 
@@ -20878,44 +20808,36 @@ msgid "Logo filename"
 msgstr ""
 
 #: ../src/report/business-reports/taxinvoice.scm:117
-#, fuzzy
 msgid "Logo width"
-msgstr "도표 너비"
+msgstr "로고 너비"
 
 #: ../src/report/business-reports/taxinvoice.scm:165
-#, fuzzy
 msgid "Display the Tax Rate?"
-msgstr "날짜를 보일까요?"
+msgstr "세율 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:166
-#, fuzzy
 msgid "Display the Units?"
-msgstr "총합계를 보일까요?"
+msgstr "단위 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:167
-#, fuzzy
 msgid "Display the contact?"
-msgstr "계정을 보일까요?"
+msgstr "계정을 보일까요?연락처 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:168
-#, fuzzy
 msgid "Display the address?"
-msgstr "날짜를 보일까요?"
+msgstr "주소 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:169
-#, fuzzy
 msgid "Display the Invoice Number?"
-msgstr "체크 번호를 보일까요?"
+msgstr "청구서 번호 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:170
-#, fuzzy
 msgid "Display the Company Name?"
-msgstr "계정 이름을 보일까요?"
+msgstr "회사명 표시?"
 
 #: ../src/report/business-reports/taxinvoice.scm:171
-#, fuzzy
 msgid "Invoice Number next to title?"
-msgstr "청구서 번호"
+msgstr "청구서번호를 제목 옆에?"
 
 #: ../src/report/business-reports/taxinvoice.scm:172
 #, fuzzy
@@ -20982,12 +20904,10 @@ msgid "Payment received, thank you."
 msgstr "지불, 감사"
 
 #: ../src/report/business-reports/taxinvoice.scm:229
-#, fuzzy
 msgid "Invoice number: "
-msgstr "청구서 번호"
+msgstr "청구서 번호:"
 
 #: ../src/report/business-reports/taxinvoice.scm:231
-#, fuzzy
 msgid "To: "
 msgstr "수신:"
 
@@ -21020,14 +20940,12 @@ msgstr "단위"
 
 #. (gnc:warn "unitprice: " (gnc:option-value unit-price-op))
 #: ../src/report/business-reports/taxinvoice.scm:352
-#, fuzzy
 msgid "GST Rate"
-msgstr "관련 세금"
+msgstr "소비세(GST)율"
 
 #: ../src/report/business-reports/taxinvoice.scm:353
-#, fuzzy
 msgid "GST Amount"
-msgstr "수량"
+msgstr "소비세(GST)"
 
 #: ../src/report/business-reports/taxinvoice.scm:354
 msgid "Amount Due (inc GST)"
@@ -21101,9 +21019,8 @@ msgstr "2분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:162
 #: ../src/report/locale-specific/us/taxtxf.scm:187
-#, fuzzy
 msgid "Apr 1 - May 31."
-msgstr "4월 1일 - 5월 31일"
+msgstr "4월 1일 - 5월 31일."
 
 #. Translators: The US tax quarters are different from
 #. actual year's quarters! See the definition of
@@ -21115,9 +21032,8 @@ msgstr "3분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:167
 #: ../src/report/locale-specific/us/taxtxf.scm:192
-#, fuzzy
 msgid "Jun 1 - Aug 31."
-msgstr "6월 1일 - 8월 31일"
+msgstr "6월 1일 - 8월 31일."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:169
 #: ../src/report/locale-specific/us/taxtxf.scm:194
@@ -21126,9 +21042,8 @@ msgstr "4분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:169
 #: ../src/report/locale-specific/us/taxtxf.scm:194
-#, fuzzy
 msgid "Sep 1 - Dec 31."
-msgstr "9월 1일 12월 31일"
+msgstr "9월 1일 - 12월 31일."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:171
 #: ../src/report/locale-specific/us/taxtxf.scm:196
@@ -21137,9 +21052,8 @@ msgstr "미지막 해"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:171
 #: ../src/report/locale-specific/us/taxtxf.scm:196
-#, fuzzy
 msgid "Last Year."
-msgstr "미지막 해"
+msgstr "작년"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:173
 #: ../src/report/locale-specific/us/taxtxf.scm:198
@@ -21148,9 +21062,8 @@ msgstr "마지막 해 1분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:174
 #: ../src/report/locale-specific/us/taxtxf.scm:199
-#, fuzzy
 msgid "Jan 1 - Mar 31, Last year."
-msgstr "1월 1일 - 3월 31일, 마지막 해"
+msgstr "1월 1일 - 3월 31일, 작년."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:176
 #: ../src/report/locale-specific/us/taxtxf.scm:201
@@ -21159,9 +21072,8 @@ msgstr "마지막 해 2분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:177
 #: ../src/report/locale-specific/us/taxtxf.scm:202
-#, fuzzy
 msgid "Apr 1 - May 31, Last year."
-msgstr "4월 1일 - 5월 31일, 마지막 해"
+msgstr "4월 1일 - 5월 31일, 작년."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:179
 #: ../src/report/locale-specific/us/taxtxf.scm:204
@@ -21173,9 +21085,8 @@ msgstr "마지막 해 3분기 추정치 세금"
 #. tax-qtr-real-qtr-year variable above.
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:180
 #: ../src/report/locale-specific/us/taxtxf.scm:208
-#, fuzzy
 msgid "Jun 1 - Aug 31, Last year."
-msgstr "6월 1일 - 8월 31일, 마지막 해"
+msgstr "6월 1일 - 8월 31일, 작년."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:182
 #: ../src/report/locale-specific/us/taxtxf.scm:210
@@ -21184,9 +21095,8 @@ msgstr "마지막 해 4분기 추정치 세금"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:183
 #: ../src/report/locale-specific/us/taxtxf.scm:211
-#, fuzzy
 msgid "Sep 1 - Dec 31, Last year."
-msgstr "9월 1일 - 12월 31일, 마지막 해"
+msgstr "9월 1일 - 12월 31일, 작년."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:187
 #: ../src/report/locale-specific/us/taxtxf.scm:215
@@ -21195,9 +21105,8 @@ msgstr "계정 선택 (없음 = 전체)"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:188
 #: ../src/report/locale-specific/us/taxtxf.scm:216
-#, fuzzy
 msgid "Select accounts."
-msgstr "계정 선택"
+msgstr "계정 선택."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:194
 #: ../src/report/locale-specific/us/taxtxf.scm:222
@@ -21213,9 +21122,8 @@ msgid "Print Full account names"
 msgstr "전체 계정명 출력"
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:200
-#, fuzzy
 msgid "Print all Parent account names."
-msgstr "전체 부모 계정명 출력"
+msgstr "전체 부모 계정명 출력합니다."
 
 #: ../src/report/locale-specific/us/taxtxf-de_DE.scm:278
 msgid ""
@@ -21338,24 +21246,20 @@ msgid "Select date to use for PriceDB lookups."
 msgstr ""
 
 #: ../src/report/locale-specific/us/taxtxf.scm:266
-#, fuzzy
 msgid "Nearest transaction date"
-msgstr "거래 날짜를 보입니까?"
+msgstr "가장 최근의 거래일"
 
 #: ../src/report/locale-specific/us/taxtxf.scm:266
-#, fuzzy
 msgid "Use nearest to transaction date."
-msgstr "거래 날짜를 보입니까?"
+msgstr "가장 최근의 거래일을 사용합니다."
 
 #: ../src/report/locale-specific/us/taxtxf.scm:268
-#, fuzzy
 msgid "Nearest report date"
-msgstr "가장 가까운 시간"
+msgstr "가장 최근의 보고일"
 
 #: ../src/report/locale-specific/us/taxtxf.scm:268
-#, fuzzy
 msgid "Use nearest to report date."
-msgstr "보고할 가장 최근 내용"
+msgstr "가장 최근의 보고일을 사용합니다."
 
 #: ../src/report/locale-specific/us/taxtxf.scm:275
 #, fuzzy
@@ -21656,7 +21560,6 @@ msgstr ""
 
 #: ../src/report/report-gnome/gnc-plugin-page-report.c:1439
 #: ../src/report/report-gnome/gnc-plugin-page-report.c:1472
-#, fuzzy
 msgid "HTML"
 msgstr "HTML"
 
@@ -21740,19 +21643,17 @@ msgid "Badly formed options URL: %s"
 msgstr ""
 
 #: ../src/report/report-gnome/window-report.c:306
-#, fuzzy, c-format
+#, c-format
 msgid "Badly-formed report id: %s"
-msgstr "안좋은 URL %s"
+msgstr "보고서 ID가 잘못 되었습니다: %s"
 
 #: ../src/report/report-system/eguile-gnc.scm:201
-#, fuzzy
 msgid "An error occurred when processing the template:"
-msgstr "%s진행하는 동안 발생한 오류."
+msgstr "서식 처리중에 오류가 발생하였습니다:"
 
 #: ../src/report/report-system/eguile-gnc.scm:250
-#, fuzzy
 msgid "Template file \"%s\" can not be read"
-msgstr "파일 %s를 찾을 수 없습니다."
+msgstr "서식 파일 \"%s\"를 읽을 수 없습니다"
 
 #: ../src/report/report-system/html-acct-table.scm:638
 #: ../src/report/standard-reports/trial-balance.scm:244
@@ -21777,9 +21678,8 @@ msgid "Font info for the report title."
 msgstr "HTML 형식 파일로 내보내기"
 
 #: ../src/report/report-system/html-fonts.scm:94
-#, fuzzy
 msgid "Account link"
-msgstr "계정 삭제"
+msgstr "계정 링크"
 
 #: ../src/report/report-system/html-fonts.scm:94
 #, fuzzy
@@ -21787,9 +21687,8 @@ msgid "Font info for account name."
 msgstr "QIF계정명"
 
 #: ../src/report/report-system/html-fonts.scm:99
-#, fuzzy
 msgid "Number cell"
-msgstr "번호"
+msgstr "숫자 셀"
 
 #: ../src/report/report-system/html-fonts.scm:99
 #, fuzzy
@@ -21817,9 +21716,8 @@ msgid "Font info for number headers."
 msgstr "QIF계정명"
 
 #: ../src/report/report-system/html-fonts.scm:114
-#, fuzzy
 msgid "Text cell"
-msgstr "문자열만(_T)"
+msgstr "문자열 셀"
 
 #: ../src/report/report-system/html-fonts.scm:114
 #, fuzzy
@@ -21827,9 +21725,8 @@ msgid "Font info for regular text cells."
 msgstr "HTML 형식 파일로 내보내기"
 
 #: ../src/report/report-system/html-fonts.scm:119
-#, fuzzy
 msgid "Total number cell"
-msgstr "전체 매출"
+msgstr "전체 숫자 셀"
 
 #: ../src/report/report-system/html-fonts.scm:119
 #, fuzzy
@@ -21837,9 +21734,8 @@ msgid "Font info for number cells containing a total."
 msgstr "HTML 형식 파일로 내보내기"
 
 #: ../src/report/report-system/html-fonts.scm:124
-#, fuzzy
 msgid "Total label cell"
-msgstr "전체 부채"
+msgstr "전체 레이블 셀"
 
 #: ../src/report/report-system/html-fonts.scm:124
 #, fuzzy
@@ -21900,19 +21796,16 @@ msgid ""
 msgstr ""
 
 #: ../src/report/report-system/options-utilities.scm:33
-#, fuzzy
 msgid "Select a date to report on."
-msgstr "읽어올 파일 선택"
+msgstr "보고기간을 선택해 주세요."
 
 #: ../src/report/report-system/options-utilities.scm:39
-#, fuzzy
 msgid "Start of reporting period."
-msgstr "계정 기간 설정"
+msgstr "보고기간 시작."
 
 #: ../src/report/report-system/options-utilities.scm:40
-#, fuzzy
 msgid "End of reporting period."
-msgstr "계정 기간"
+msgstr "보고기간 끝."
 
 #: ../src/report/report-system/options-utilities.scm:50
 msgid "The amount of time between data points."
@@ -21983,34 +21876,28 @@ msgid "All accounts"
 msgstr "전체 계정"
 
 #: ../src/report/report-system/options-utilities.scm:76
-#, fuzzy
 msgid "Top-level."
-msgstr "최상위 레벨"
+msgstr "최상위 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:78
-#, fuzzy
 msgid "Second-level."
-msgstr "두번째 레벨"
+msgstr "두번째 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:80
-#, fuzzy
 msgid "Third-level."
-msgstr "세번째 레벨"
+msgstr "세번째 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:82
-#, fuzzy
 msgid "Fourth-level."
-msgstr "네번째 레벨"
+msgstr "네번째 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:84
-#, fuzzy
 msgid "Fifth-level."
-msgstr "6번째 레벨"
+msgstr "다섯번째 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:86
-#, fuzzy
 msgid "Sixth-level."
-msgstr "6번째 레벨"
+msgstr "여섯번째 레벨."
 
 #: ../src/report/report-system/options-utilities.scm:96
 msgid "Show accounts to this depth, overriding any other option."
@@ -22050,9 +21937,8 @@ msgstr ""
 #: ../src/report/report-system/options-utilities.scm:174
 #: ../src/report/standard-reports/advanced-portfolio.scm:76
 #: ../src/report/standard-reports/price-scatter.scm:87
-#, fuzzy
 msgid "The source of price information."
-msgstr "가격 정보 소스"
+msgstr "가격 정보 출처."
 
 #: ../src/report/report-system/options-utilities.scm:176
 msgid "Average Cost"
@@ -22079,9 +21965,8 @@ msgstr "가장 최근 것"
 
 #: ../src/report/report-system/options-utilities.scm:183
 #: ../src/report/standard-reports/advanced-portfolio.scm:79
-#, fuzzy
 msgid "The most recent recorded price."
-msgstr "가장 최근 기록된 가격"
+msgstr "가장 최근 기록된 가격."
 
 #: ../src/report/report-system/options-utilities.scm:185
 #: ../src/report/standard-reports/advanced-portfolio.scm:81
@@ -22107,7 +21992,6 @@ msgid "Choose the marker for each data point."
 msgstr "각 자료점의 마커 선택"
 
 #: ../src/report/report-system/options-utilities.scm:221
-#, fuzzy
 msgid "Diamond"
 msgstr "다이아몬드"
 
@@ -22136,7 +22020,6 @@ msgid "Cross"
 msgstr "십자"
 
 #: ../src/report/report-system/options-utilities.scm:225
-#, fuzzy
 msgid "Plus"
 msgstr "더하기"
 
@@ -22202,9 +22085,8 @@ msgstr "부모 계정의 수지를 보이지 않기"
 #: ../src/report/report-system/options-utilities.scm:263
 #: ../src/report/standard-reports/account-summary.scm:102
 #: ../src/report/standard-reports/sx-summary.scm:83
-#, fuzzy
 msgid "Account Balance"
-msgstr "계좌 잔액"
+msgstr "계정 잔고"
 
 #: ../src/report/report-system/options-utilities.scm:264
 msgid "Show only the balance in the parent account, excluding any subaccounts."
@@ -22222,14 +22104,12 @@ msgid "Do not show"
 msgstr "보이지 않기"
 
 #: ../src/report/report-system/options-utilities.scm:270
-#, fuzzy
 msgid "Do not show any balances of parent accounts."
-msgstr "부모 계정의 수지를 보이지 않기"
+msgstr "부모 계정 잔고 표시하지 않음."
 
 #: ../src/report/report-system/options-utilities.scm:278
-#, fuzzy
 msgid "How to show account subtotals for parent accounts."
-msgstr "부모 계정의 계정 부분합계를 보이는 방법"
+msgstr "부모 계정이 자식계정의 부분합을 표시하는 방법."
 
 #: ../src/report/report-system/options-utilities.scm:281
 msgid "Show subtotals"
@@ -22240,9 +22120,8 @@ msgid "Show subtotals for selected parent accounts which have subaccounts."
 msgstr ""
 
 #: ../src/report/report-system/options-utilities.scm:285
-#, fuzzy
 msgid "Do not show any subtotals for parent accounts."
-msgstr "부모 계정의 부분합계를 보이지 않기"
+msgstr "부모 계정의 "
 
 #. (N_ "Subtotals indented text book style")
 #: ../src/report/report-system/options-utilities.scm:288
@@ -22314,9 +22193,8 @@ msgid "Select a stylesheet for the report."
 msgstr "보고서 스타일시트 선택"
 
 #: ../src/report/report-system/report.scm:255
-#, fuzzy
 msgid "stylesheet."
-msgstr "스타일시트"
+msgstr "스타일시트."
 
 #: ../src/report/report-system/report.scm:858
 msgid ""
@@ -22487,9 +22365,8 @@ msgid "Show Totals"
 msgstr "총 합계 보기"
 
 #: ../src/report/standard-reports/account-piecharts.scm:77
-#, fuzzy
 msgid "Show Percents"
-msgstr "가격 보기"
+msgstr "퍼센트 보기"
 
 #: ../src/report/standard-reports/account-piecharts.scm:78
 #: ../src/report/standard-reports/daily-reports.scm:67
@@ -22632,9 +22509,8 @@ msgstr "회사명"
 #: ../src/report/standard-reports/income-statement.scm:58
 #: ../src/report/standard-reports/sx-summary.scm:51
 #: ../src/report/standard-reports/trial-balance.scm:69
-#, fuzzy
 msgid "Name of company/individual."
-msgstr "회사/개인 이름"
+msgstr "회사/개인의 이름입니다."
 
 #: ../src/report/standard-reports/account-summary.scm:81
 #: ../src/report/standard-reports/sx-summary.scm:62
@@ -22872,32 +22748,28 @@ msgid "How to report brokerage fees"
 msgstr ""
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:88
-#, fuzzy
 msgid "Basis calculation method."
-msgstr "기본 계산 방법"
+msgstr "기초상품 계산 방법입니다."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:91
-#, fuzzy
 msgid "Use average cost of all shares for basis."
-msgstr "기준에 대한 전체 주식의 평균 비용을 사용"
+msgstr "기초상품 주식 전체의 평균가격 사용."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:93
 msgid "FIFO"
 msgstr "FIFO"
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:94
-#, fuzzy
 msgid "Use first-in first-out method for basis."
-msgstr "기준에 대한 처음 들어가면 처음 나오는 방법(FIFO) 사용"
+msgstr "선입선출 기준가 사용."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:96
 msgid "LIFO"
 msgstr ""
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:97
-#, fuzzy
 msgid "Use last-in first-out method for basis."
-msgstr "기준에 대한 처음 들어가면 처음 나오는 방법(FIFO) 사용"
+msgstr "후입선출 기준가 사용."
 
 #: ../src/report/standard-reports/advanced-portfolio.scm:103
 msgid "Prefer use of price editor pricing over transactions, where applicable."
@@ -23457,9 +23329,8 @@ msgstr ""
 
 #: ../src/report/standard-reports/budget-income-statement.scm:67
 #: ../src/report/standard-reports/budget.scm:76
-#, fuzzy
 msgid "Range start"
-msgstr "범위: "
+msgstr "범위 시작"
 
 #: ../src/report/standard-reports/budget-income-statement.scm:69
 msgid "Select a budget period that begins the reporting range."
@@ -23467,9 +23338,8 @@ msgstr ""
 
 #: ../src/report/standard-reports/budget-income-statement.scm:71
 #: ../src/report/standard-reports/budget.scm:83
-#, fuzzy
 msgid "Range end"
-msgstr "범위: "
+msgstr "범위 끝"
 
 #: ../src/report/standard-reports/budget-income-statement.scm:73
 msgid "Select a budget period that ends the reporting range."
@@ -23597,9 +23467,8 @@ msgid "Net loss"
 msgstr "순 손실"
 
 #: ../src/report/standard-reports/budget-income-statement.scm:759
-#, fuzzy
 msgid "Budget Income Statement"
-msgstr "손익 계산서"
+msgstr "예산 손익계산서"
 
 #: ../src/report/standard-reports/budget-income-statement.scm:760
 #, fuzzy
@@ -23608,9 +23477,8 @@ msgstr "예산 기간:"
 
 #. for gnc-build-url
 #: ../src/report/standard-reports/budget.scm:42
-#, fuzzy
 msgid "Budget Report"
-msgstr "예산 보고서(_B)"
+msgstr "예산 보고서"
 
 #. define all option's names so that they are properly defined
 #. in *one* place.
@@ -23632,54 +23500,44 @@ msgid "Show Full Account Names"
 msgstr "전체 계정명 보기"
 
 #: ../src/report/standard-reports/budget.scm:56
-#, fuzzy
 msgid "Select Columns"
-msgstr "계정 선택"
+msgstr "열 선택"
 
 #: ../src/report/standard-reports/budget.scm:57
-#, fuzzy
 msgid "Show Budget"
-msgstr "새 예산"
+msgstr "예산 보기"
 
 #: ../src/report/standard-reports/budget.scm:58
-#, fuzzy
 msgid "Display a column for the budget values."
-msgstr "입력 값 보기"
+msgstr "예산값 열을 표시합니다."
 
 #: ../src/report/standard-reports/budget.scm:59
-#, fuzzy
 msgid "Show Actual"
-msgstr "표 보기"
+msgstr "실제 보기"
 
 #: ../src/report/standard-reports/budget.scm:60
-#, fuzzy
 msgid "Display a column for the actual values."
-msgstr "전체 개인별 세금 보입니까?"
+msgstr "실제값 열을 표시합니다."
 
 #: ../src/report/standard-reports/budget.scm:61
-#, fuzzy
 msgid "Show Difference"
-msgstr "차이:"
+msgstr "차이 보기"
 
 #: ../src/report/standard-reports/budget.scm:62
-#, fuzzy
 msgid "Display the difference as budget - actual."
-msgstr "통장정리한 날짜를 보일까요?"
+msgstr "예산과 실제의 차이를 표시합니다."
 
 #: ../src/report/standard-reports/budget.scm:63
-#, fuzzy
 msgid "Show Column with Totals"
-msgstr "부분합계 보기"
+msgstr "합계 보기"
 
 #: ../src/report/standard-reports/budget.scm:64
-#, fuzzy
 msgid "Display a column with the row totals."
-msgstr "총합계를 보일까요?"
+msgstr "행 단위로 합을 표시합니다."
 
 #: ../src/report/standard-reports/budget.scm:65
-#, fuzzy
 msgid "Roll up budget amounts to parent"
-msgstr "계정 삭제"
+msgstr "부모계정으로 예산금액 합산"
 
 #: ../src/report/standard-reports/budget.scm:66
 msgid ""
@@ -23745,17 +23603,14 @@ msgid ""
 msgstr ""
 
 #: ../src/report/standard-reports/budget.scm:118
-#, fuzzy
 msgid "First"
 msgstr "처음"
 
 #: ../src/report/standard-reports/budget.scm:119
-#, fuzzy
 msgid "The first period of the budget"
-msgstr "보고서의 제목"
+msgstr "첫 예산기간"
 
 #: ../src/report/standard-reports/budget.scm:122
-#, fuzzy
 msgid "Previous"
 msgstr "이전"
 
@@ -23769,7 +23624,6 @@ msgid "Current period, according to report evaluation date"
 msgstr ""
 
 #: ../src/report/standard-reports/budget.scm:130
-#, fuzzy
 msgid "Next"
 msgstr "다음"
 
@@ -23778,9 +23632,8 @@ msgid "Next period, according to report evaluation date"
 msgstr ""
 
 #: ../src/report/standard-reports/budget.scm:135
-#, fuzzy
 msgid "Last budget period"
-msgstr "예산 기간:"
+msgstr "마지막 예산기간"
 
 #: ../src/report/standard-reports/budget.scm:138
 msgid "Manual period selection"
@@ -23792,9 +23645,8 @@ msgstr ""
 
 #: ../src/report/standard-reports/budget.scm:169
 #: ../src/report/standard-reports/cash-flow.scm:87
-#, fuzzy
 msgid "Show full account names (including parent accounts)."
-msgstr "전체 계정명 보기(부모 계정 포함)"
+msgstr "전체 계정명 보기(부모 계정 포함)."
 
 #: ../src/report/standard-reports/budget.scm:594
 msgid "Bgt"
@@ -23805,7 +23657,6 @@ msgid "Act"
 msgstr "작업"
 
 #: ../src/report/standard-reports/budget.scm:610
-#, fuzzy
 msgid "Diff"
 msgstr "차이"
 
@@ -23818,14 +23669,12 @@ msgid "Cash Flow"
 msgstr "현금 흐름표"
 
 #: ../src/report/standard-reports/cash-flow.scm:57
-#, fuzzy
 msgid "Include Trading Accounts in report"
-msgstr "전체 합계 포함(_G)"
+msgstr "보고서에 매매 계정 포함"
 
 #: ../src/report/standard-reports/cash-flow.scm:106
-#, fuzzy
 msgid "Include transfers to and from Trading Accounts in the report."
-msgstr "필터 계정에서/로 거래만 포함"
+msgstr "보고서에 매매계정 입/출금 거래를 포함합니다."
 
 #: ../src/report/standard-reports/cash-flow.scm:241
 msgid "%s and subaccounts"
@@ -23844,9 +23693,8 @@ msgid "Money out of selected accounts goes to"
 msgstr "유출현금 대상"
 
 #: ../src/report/standard-reports/cash-flow.scm:364
-#, fuzzy
 msgid "Difference"
-msgstr "차집합"
+msgstr "차이"
 
 #. included since Bug726449
 #. for regexp-substitute/global, used by jpqplot
@@ -23993,9 +23841,8 @@ msgid "Shows a piechart with the total expenses for each day of the week"
 msgstr ""
 
 #: ../src/report/standard-reports/equity-statement.scm:57
-#, fuzzy
 msgid "Equity Statement"
-msgstr "자기자본 명세서(_E)"
+msgstr "자기자본 명세서"
 
 #: ../src/report/standard-reports/equity-statement.scm:72
 #, fuzzy
@@ -24130,17 +23977,15 @@ msgstr "통장정리한 날짜"
 #: ../src/report/standard-reports/transaction.scm:525
 #: ../src/report/standard-reports/transaction.scm:527
 #: ../src/report/standard-reports/transaction.scm:955
-#, fuzzy
 msgid "Trans Number"
-msgstr "세금 번호"
+msgstr "거래 번"
 
 #: ../src/report/standard-reports/general-ledger.scm:83
 #: ../src/report/standard-reports/general-ledger.scm:103
 #: ../src/report/standard-reports/transaction.scm:408
 #: ../src/report/standard-reports/transaction.scm:940
-#, fuzzy
 msgid "Use Full Account Name"
-msgstr "전체 계정명을 사용합니까?"
+msgstr "전체 계정명 사용"
 
 #: ../src/report/standard-reports/general-ledger.scm:85
 #: ../src/report/standard-reports/general-ledger.scm:105
@@ -24382,9 +24227,8 @@ msgid "Net Worth Linechart"
 msgstr "순 자산 막대차트"
 
 #: ../src/report/standard-reports/net-linechart.scm:532
-#, fuzzy
 msgid "Income & Expense Linechart"
-msgstr "수입 & 지출 차트"
+msgstr "수입 및 지출 선차트"
 
 #: ../src/report/standard-reports/portfolio.scm:35
 msgid "Investment Portfolio"
@@ -24488,19 +24332,16 @@ msgid "Price Scatterplot"
 msgstr "가격 분산도표"
 
 #: ../src/report/standard-reports/register.scm:170
-#, fuzzy
 msgid "Debit Value"
-msgstr "현재 가치:"
+msgstr "대변 값"
 
 #: ../src/report/standard-reports/register.scm:172
-#, fuzzy
 msgid "Credit Value"
-msgstr "신용 가격"
+msgstr "차변 값"
 
 #: ../src/report/standard-reports/register.scm:405
-#, fuzzy
 msgid "The title of the report."
-msgstr "보고서의 제목"
+msgstr "보고서 제목."
 
 #: ../src/report/standard-reports/register.scm:417
 #, fuzzy
@@ -24550,9 +24391,8 @@ msgstr "단일"
 
 #: ../src/report/standard-reports/register.scm:459
 #: ../src/report/standard-reports/transaction.scm:1003
-#, fuzzy
 msgid "Single Column Display."
-msgstr "단일 열 보기"
+msgstr "단일 열 보기."
 
 #: ../src/report/standard-reports/register.scm:460
 #: ../src/report/standard-reports/transaction.scm:1004
@@ -24561,9 +24401,8 @@ msgstr "이중"
 
 #: ../src/report/standard-reports/register.scm:460
 #: ../src/report/standard-reports/transaction.scm:1004
-#, fuzzy
 msgid "Two Column Display."
-msgstr "2 열 보기"
+msgstr "이중 열 보기."
 
 #: ../src/report/standard-reports/register.scm:465
 #, fuzzy
@@ -24572,9 +24411,8 @@ msgstr "거래 참고사항을 보입니까?"
 
 #: ../src/report/standard-reports/register.scm:470
 #: ../src/report/standard-reports/transaction.scm:949
-#, fuzzy
 msgid "Display a running balance?"
-msgstr "운용 잔고 보기"
+msgstr "누적 잔고 보기?"
 
 #: ../src/report/standard-reports/register.scm:623
 msgid "Total Debits"
@@ -24585,23 +24423,20 @@ msgid "Total Credits"
 msgstr "전체 출금"
 
 #: ../src/report/standard-reports/register.scm:627
-#, fuzzy
 msgid "Total Value Debits"
-msgstr "전체 입금"
+msgstr "대변 계"
 
 #: ../src/report/standard-reports/register.scm:629
-#, fuzzy
 msgid "Total Value Credits"
-msgstr "전체 출금"
+msgstr "차변 계"
 
 #: ../src/report/standard-reports/register.scm:632
 msgid "Net Change"
 msgstr "변경하지 않음"
 
 #: ../src/report/standard-reports/register.scm:635
-#, fuzzy
 msgid "Value Change"
-msgstr "변경하지 않음"
+msgstr "변화"
 
 #: ../src/report/standard-reports/register.scm:794
 msgid "Client"
@@ -24645,37 +24480,32 @@ msgid "Formats the table suitable for cut & paste exporting with extra cells."
 msgstr ""
 
 #: ../src/report/standard-reports/transaction.scm:656
-#, fuzzy
 msgid "Filter on these accounts."
-msgstr "이 계정상의 필터"
+msgstr "이 계정 필터링."
 
 #: ../src/report/standard-reports/transaction.scm:672
-#, fuzzy
 msgid "Filter account."
-msgstr "필터 계정"
+msgstr "계정  필터."
 
 #: ../src/report/standard-reports/transaction.scm:676
-#, fuzzy
 msgid "Do not do any filtering."
-msgstr "필터링을 할 수 없음"
+msgstr "필터링하지 않음."
 
 #: ../src/report/standard-reports/transaction.scm:678
 msgid "Include Transactions to/from Filter Accounts"
 msgstr "필터 계정에서/로 거래 포함"
 
 #: ../src/report/standard-reports/transaction.scm:679
-#, fuzzy
 msgid "Include transactions to/from filter accounts only."
-msgstr "필터 계정에서/로 거래만 포함"
+msgstr "필터된 계정의 입/출금 거래만 포함."
 
 #: ../src/report/standard-reports/transaction.scm:681
 msgid "Exclude Transactions to/from Filter Accounts"
 msgstr "필터 계정에서/로 거래 제외"
 
 #: ../src/report/standard-reports/transaction.scm:682
-#, fuzzy
 msgid "Exclude transactions to/from all filter accounts."
-msgstr "전체 필터 계정에서/로 거래 제외"
+msgstr "필터된 계정의 입/출금 거래 제외."
 
 #: ../src/report/standard-reports/transaction.scm:690
 #, fuzzy
@@ -24711,9 +24541,8 @@ msgstr "양 쪽 보기( 합계에서 빈 거래 포함)"
 
 #: ../src/report/standard-reports/transaction.scm:713
 #: ../src/report/standard-reports/transaction.scm:768
-#, fuzzy
 msgid "Do not sort."
-msgstr "정렬하지 않기"
+msgstr "정렬 안 함."
 
 #: ../src/report/standard-reports/transaction.scm:717
 #: ../src/report/standard-reports/transaction.scm:772
@@ -24734,15 +24563,13 @@ msgstr "정확한 시간"
 
 #: ../src/report/standard-reports/transaction.scm:729
 #: ../src/report/standard-reports/transaction.scm:784
-#, fuzzy
 msgid "Sort by exact time."
-msgstr "정확한 시간에 의한 정렬"
+msgstr "정확한 시간 기준 정렬"
 
 #: ../src/report/standard-reports/transaction.scm:733
 #: ../src/report/standard-reports/transaction.scm:788
-#, fuzzy
 msgid "Sort by the Reconciled Date."
-msgstr "통장정리한 날짜에 의한 정렬"
+msgstr "마감일 기준 정렬."
 
 #: ../src/report/standard-reports/transaction.scm:736
 #: ../src/report/standard-reports/transaction.scm:791
@@ -24751,9 +24578,8 @@ msgstr "입력기 정렬"
 
 #: ../src/report/standard-reports/transaction.scm:737
 #: ../src/report/standard-reports/transaction.scm:792
-#, fuzzy
 msgid "Sort as in the register."
-msgstr "등록 순서로 정렬"
+msgstr "입력기대로 정렬."
 
 #: ../src/report/standard-reports/transaction.scm:741
 #: ../src/report/standard-reports/transaction.scm:796
@@ -24797,24 +24623,20 @@ msgid "None."
 msgstr "없음"
 
 #: ../src/report/standard-reports/transaction.scm:830
-#, fuzzy
 msgid "Weekly."
-msgstr "매주"
+msgstr "주별."
 
 #: ../src/report/standard-reports/transaction.scm:831
-#, fuzzy
 msgid "Monthly."
-msgstr "매월"
+msgstr "월별."
 
 #: ../src/report/standard-reports/transaction.scm:832
-#, fuzzy
 msgid "Quarterly."
-msgstr "사분기"
+msgstr "분기별."
 
 #: ../src/report/standard-reports/transaction.scm:833
-#, fuzzy
 msgid "Yearly."
-msgstr "매년"
+msgstr "연도별."
 
 #: ../src/report/standard-reports/transaction.scm:839
 #, fuzzy
@@ -25678,9 +25500,8 @@ msgstr "기술적색상"
 #: ../src/report/stylesheets/stylesheet-footer.scm:208
 #: ../src/report/stylesheets/stylesheet-footer.scm:498
 #: ../src/report/stylesheets/stylesheet-footer.scm:502
-#, fuzzy
 msgid "Footer"
-msgstr "바닥글 1"
+msgstr "바닥글"
 
 #: ../src/report/stylesheets/stylesheet-footer.scm:78
 msgid "String to be placed as a footer."
@@ -25699,9 +25520,8 @@ msgstr "준비된 기관이나 회사의 이름"
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:78
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:264
-#, fuzzy
 msgid "Show date"
-msgstr "표 보기"
+msgstr "날짜 보기"
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:79
 #, fuzzy
@@ -25720,20 +25540,17 @@ msgstr ""
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:90
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:266
-#, fuzzy
 msgid "Show GnuCash Version"
 msgstr "GnuCash 버전 보기"
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:91
-#, fuzzy
 msgid "Show the currently used GnuCash version."
-msgstr "GnuCash 버전 보기"
+msgstr "현재 사용중인 GnuCash 버전을 보여줍니다."
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:103
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:273
-#, fuzzy
 msgid "Additional Comments"
-msgstr "추가 카드"
+msgstr "추가 코멘트"
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:104
 msgid "String for additional report information."
@@ -25770,9 +25587,8 @@ msgstr ""
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:127
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:270
-#, fuzzy
 msgid "Show comments at bottom"
-msgstr "문서 보기(_S)"
+msgstr "하단에 코멘트 표시"
 
 #: ../src/report/stylesheets/stylesheet-head-or-tail.scm:128
 msgid ""
@@ -25852,27 +25668,24 @@ msgid "First Option"
 msgstr "첫째 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:76
-#, fuzzy
 msgid "Help for first option."
-msgstr "첫째 설정 도움말"
+msgstr "첫번째 옵션 도움말."
 
 #: ../src/report/utility-reports/hello-world.scm:79
 msgid "Second Option"
 msgstr "둘째 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:80
-#, fuzzy
 msgid "Help for second option."
-msgstr "둘째 설정 도움말"
+msgstr "두번째 옵션 도움말."
 
 #: ../src/report/utility-reports/hello-world.scm:83
 msgid "Third Option"
 msgstr "세째 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:84
-#, fuzzy
 msgid "Help for third option."
-msgstr "세째 설정 도움말"
+msgstr "세번째 옵션 도움말."
 
 #: ../src/report/utility-reports/hello-world.scm:87
 msgid "Fourth Options"
@@ -25887,9 +25700,8 @@ msgid "String Option"
 msgstr "문자열 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:98
-#, fuzzy
 msgid "This is a string option."
-msgstr "이것은 문자열 설정입니다"
+msgstr "문자열 옵션입니다."
 
 #. the title of the report will be rendered by the
 #. selected style sheet.  All we have to do is set it in the
@@ -25913,36 +25725,32 @@ msgid "Just a Date Option"
 msgstr "날짜 설정만"
 
 #: ../src/report/utility-reports/hello-world.scm:109
-#, fuzzy
 msgid "This is a date option."
-msgstr "얷은 날짜 설정입니다"
+msgstr "날짜 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:117
 msgid "Time and Date Option"
 msgstr "시간과 날짜 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:118
-#, fuzzy
 msgid "This is a date option with time."
-msgstr "이것은 시간을 가진 날짜 설정입니다"
+msgstr "날짜/시간 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:124
 msgid "Combo Date Option"
 msgstr "콤보 날짜 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:125
-#, fuzzy
 msgid "This is a combination date option."
-msgstr "이것은 상대적 날짜 설정입니"
+msgstr "조합 날짜 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:131
 msgid "Relative Date Option"
 msgstr "상대적 날짜 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:132
-#, fuzzy
 msgid "This is a relative date option."
-msgstr "이것은 상대적 날짜 설정입니"
+msgstr "상대 날짜 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:142
 msgid "Number Option"
@@ -25954,9 +25762,8 @@ msgstr "이것은 번호 설정입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:161
 #: ../src/report/utility-reports/hello-world.scm:168
-#, fuzzy
 msgid "This is a color option."
-msgstr "이것은 색상 설정입니다"
+msgstr "색상 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:189
 #: ../src/report/utility-reports/hello-world.scm:202
@@ -25968,18 +25775,16 @@ msgid "An account list option"
 msgstr "계정 목록 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:190
-#, fuzzy
 msgid "This is an account list option."
-msgstr "이것은 계정 목록 설정입니다"
+msgstr "계정 목록 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:202
 msgid "A list option"
 msgstr "목록 설정"
 
 #: ../src/report/utility-reports/hello-world.scm:203
-#, fuzzy
 msgid "This is a list option."
-msgstr "이것은 목록 설정입니다"
+msgstr "목록 옵션입니다."
 
 #: ../src/report/utility-reports/hello-world.scm:207
 msgid "The Good"
@@ -26121,9 +25926,8 @@ msgstr "좋은 하루 되세요!"
 #. The name in the menu
 #. (only necessary if it differs from the name)
 #: ../src/report/utility-reports/hello-world.scm:508
-#, fuzzy
 msgid "Sample Report with Examples"
-msgstr "예제있는 샘플 보고서(_S)"
+msgstr "예제가 제공되는 샘플 보고서"
 
 #. A tip that is used to provide additional information about the
 #. report to the user.
@@ -26153,20 +25957,18 @@ msgid "Multicolumn View"
 msgstr "다수열 보기"
 
 #: ../src/report/utility-reports/view-column.scm:249
-#, fuzzy
 msgid "Custom Multicolumn Report"
-msgstr "사용자 다수열 보고서(_C)"
+msgstr "사용자지정 다수열 보고서"
 
 #: ../src/report/utility-reports/welcome-to-gnucash.scm:61
 #: ../src/report/utility-reports/welcome-to-gnucash.scm:103
-#, fuzzy
 msgid "Welcome to GnuCash"
-msgstr "이 프로그램은 재정관리를 위한 GnuCash입니다!"
+msgstr "안녕하세요 GnuCash입니다!"
 
 #: ../src/report/utility-reports/welcome-to-gnucash.scm:97
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Welcome to GnuCash ~a !"
-msgstr "이 프로그램은 재정관리를 위한 GnuCash입니다!"
+msgstr "안녕하세요 GnuCash입니다!"
 
 #: ../src/report/utility-reports/welcome-to-gnucash.scm:99
 #, scheme-format
@@ -26262,9 +26064,8 @@ msgid "Manage your stock, bond and mutual fund accounts with ease"
 msgstr ""
 
 #: ../src/gnome/gnucash.appdata.xml.in.h:6
-#, fuzzy
 msgid "Keep your small business' accounting up to date"
-msgstr "일반 계정 순서를 유지"
+msgstr "소규모 사업회계를 항상 관리하세요"
 
 #: ../src/gnome/gnucash.appdata.xml.in.h:7
 msgid "Create accurate reports and graphs from your financial data"
